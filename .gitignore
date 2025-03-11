@@ -1,0 +1,16 @@
+# 日志文件
+*.log
+
+# Python 编译文件
+__pycache__/
+*.py[cod]
+*.so
+
+# # 一次性脚本
+# disposeable/*
+
+# # 具体结果
+# results/*
+
+# # 脚本
+# scripts/*

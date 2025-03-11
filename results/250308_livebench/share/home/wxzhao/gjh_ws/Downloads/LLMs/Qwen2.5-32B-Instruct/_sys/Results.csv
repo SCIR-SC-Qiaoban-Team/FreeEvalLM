@@ -1,0 +1,17 @@
+subtask,score
+story_generation,41.916666666666664
+connections,32.66666666666667
+cta,0.0
+simplify,58.13333333333334
+tablereformat,14.000000000000002
+tablejoin,0.0
+paraphrase,52.800000000000004
+plot_unscrambling,22.28651726069595
+typos,22.0
+summarize,46.833333333333336
+,
+data_analysis,4.666666666666667
+instruction_following,49.92083333333334
+language,25.651061309120873
+,
+FINAL,26.746187103040295

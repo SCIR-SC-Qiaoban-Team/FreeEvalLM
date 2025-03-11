@@ -1,0 +1,852 @@
+[
+    {
+        "question_id": "af476f71ad2370c738d616a1bb2d093294018a7b6a9c43f62641ce46f9909ea1",
+        "category": "language",
+        "ground_truth": "current, drift, tide, wave, curl, fly, press, row",
+        "turns": [
+            "You are given 8 words/phrases below. Find two groups of four items that share something in common. Here are a few examples of groups: bass, flounder, salmon, trout (all four are fish); ant, drill, island, opal (all four are two-word phrases that start with 'fire'); are, why, bee, queue (all four are homophones of letters); sea, sister, sin, wonder (all four are members of a septet). Categories will be more specific than e.g., '5-letter-words', 'names', or 'verbs'. There is exactly one solution. Think step-by-step, and then give your answer in **bold** as a list of the 8 items separated by commas, ordered by group (for example, **bass, founder, salmon, trout, ant, drill, island, opal**). If you don't know the answer, make your best guess. The items are: row, drift, curl, tide, current, press, fly, wave."
+        ],
+        "group": "writing",
+        "movie_name": "",
+        "release_date": "2024-06-01",
+        "task": "connections",
+        "livebench_release_date": "2024-06-24 00:00:00",
+        "livebench_removal_date": "",
+        "raw_id": 356,
+        "citation": "https://www.nytimes.com/games/connections, via https://word.tips/todays-nyt-connections-answers/",
+        "input": "You are given 8 words/phrases below. Find two groups of four items that share something in common. Here are a few examples of groups: bass, flounder, salmon, trout (all four are fish); ant, drill, island, opal (all four are two-word phrases that start with 'fire'); are, why, bee, queue (all four are homophones of letters); sea, sister, sin, wonder (all four are members of a septet). Categories will be more specific than e.g., '5-letter-words', 'names', or 'verbs'. There is exactly one solution. Think step-by-step, and then give your answer in **bold** as a list of the 8 items separated by commas, ordered by group (for example, **bass, founder, salmon, trout, ant, drill, island, opal**). If you don't know the answer, make your best guess. The items are: row, drift, curl, tide, current, press, fly, wave."
+    },
+    {
+        "question_id": "178145ed3940884ab7d62b8901617e8ce69f42d64193ab7d1aa25e4870437f07",
+        "category": "language",
+        "ground_truth": "body, canon, oeuvre, works, fuji, hood, olympus, whitney",
+        "turns": [
+            "You are given 8 words/phrases below. Find two groups of four items that share something in common. Here are a few examples of groups: bass, flounder, salmon, trout (all four are fish); ant, drill, island, opal (all four are two-word phrases that start with 'fire'); are, why, bee, queue (all four are homophones of letters); sea, sister, sin, wonder (all four are members of a septet). Categories will be more specific than e.g., '5-letter-words', 'names', or 'verbs'. There is exactly one solution. Think step-by-step, and then give your answer in **bold** as a list of the 8 items separated by commas, ordered by group (for example, **bass, founder, salmon, trout, ant, drill, island, opal**). If you don't know the answer, make your best guess. The items are: fuji, canon, oeuvre, olympus, whitney, hood, body, works."
+        ],
+        "group": "writing",
+        "movie_name": "",
+        "release_date": "2024-05-31",
+        "task": "connections",
+        "livebench_release_date": "2024-06-24 00:00:00",
+        "livebench_removal_date": "",
+        "raw_id": 355,
+        "citation": "https://www.nytimes.com/games/connections, via https://word.tips/todays-nyt-connections-answers/",
+        "input": "You are given 8 words/phrases below. Find two groups of four items that share something in common. Here are a few examples of groups: bass, flounder, salmon, trout (all four are fish); ant, drill, island, opal (all four are two-word phrases that start with 'fire'); are, why, bee, queue (all four are homophones of letters); sea, sister, sin, wonder (all four are members of a septet). Categories will be more specific than e.g., '5-letter-words', 'names', or 'verbs'. There is exactly one solution. Think step-by-step, and then give your answer in **bold** as a list of the 8 items separated by commas, ordered by group (for example, **bass, founder, salmon, trout, ant, drill, island, opal**). If you don't know the answer, make your best guess. The items are: fuji, canon, oeuvre, olympus, whitney, hood, body, works."
+    },
+    {
+        "question_id": "e97f5c01548d6e52ab781821f749da6639940c88a5843ba7ec708dec713a6daa",
+        "category": "language",
+        "ground_truth": "loot, raid, rob, sack, bobby, hair, push, safety",
+        "turns": [
+            "You are given 8 words/phrases below. Find two groups of four items that share something in common. Here are a few examples of groups: bass, flounder, salmon, trout (all four are fish); ant, drill, island, opal (all four are two-word phrases that start with 'fire'); are, why, bee, queue (all four are homophones of letters); sea, sister, sin, wonder (all four are members of a septet). Categories will be more specific than e.g., '5-letter-words', 'names', or 'verbs'. There is exactly one solution. Think step-by-step, and then give your answer in **bold** as a list of the 8 items separated by commas, ordered by group (for example, **bass, founder, salmon, trout, ant, drill, island, opal**). If you don't know the answer, make your best guess. The items are: push, sack, hair, raid, loot, bobby, safety, rob."
+        ],
+        "group": "writing",
+        "movie_name": "",
+        "release_date": "2024-05-30",
+        "task": "connections",
+        "livebench_release_date": "2024-06-24 00:00:00",
+        "livebench_removal_date": "",
+        "raw_id": 354,
+        "citation": "https://www.nytimes.com/games/connections, via https://word.tips/todays-nyt-connections-answers/",
+        "input": "You are given 8 words/phrases below. Find two groups of four items that share something in common. Here are a few examples of groups: bass, flounder, salmon, trout (all four are fish); ant, drill, island, opal (all four are two-word phrases that start with 'fire'); are, why, bee, queue (all four are homophones of letters); sea, sister, sin, wonder (all four are members of a septet). Categories will be more specific than e.g., '5-letter-words', 'names', or 'verbs'. There is exactly one solution. Think step-by-step, and then give your answer in **bold** as a list of the 8 items separated by commas, ordered by group (for example, **bass, founder, salmon, trout, ant, drill, island, opal**). If you don't know the answer, make your best guess. The items are: push, sack, hair, raid, loot, bobby, safety, rob."
+    },
+    {
+        "question_id": "66ac76c2dc1e382f6fc96c622f2a78925cd4f09d4f72b7dd90a95161b13cea98",
+        "category": "language",
+        "ground_truth": "direct, guide, lead, steer, bully, cow, daunt, rattle",
+        "turns": [
+            "You are given 8 words/phrases below. Find two groups of four items that share something in common. Here are a few examples of groups: bass, flounder, salmon, trout (all four are fish); ant, drill, island, opal (all four are two-word phrases that start with 'fire'); are, why, bee, queue (all four are homophones of letters); sea, sister, sin, wonder (all four are members of a septet). Categories will be more specific than e.g., '5-letter-words', 'names', or 'verbs'. There is exactly one solution. Think step-by-step, and then give your answer in **bold** as a list of the 8 items separated by commas, ordered by group (for example, **bass, founder, salmon, trout, ant, drill, island, opal**). If you don't know the answer, make your best guess. The items are: steer, bully, cow, lead, daunt, guide, rattle, direct."
+        ],
+        "group": "writing",
+        "movie_name": "",
+        "release_date": "2024-05-29",
+        "task": "connections",
+        "livebench_release_date": "2024-06-24 00:00:00",
+        "livebench_removal_date": "",
+        "raw_id": 353,
+        "citation": "https://www.nytimes.com/games/connections, via https://word.tips/todays-nyt-connections-answers/",
+        "input": "You are given 8 words/phrases below. Find two groups of four items that share something in common. Here are a few examples of groups: bass, flounder, salmon, trout (all four are fish); ant, drill, island, opal (all four are two-word phrases that start with 'fire'); are, why, bee, queue (all four are homophones of letters); sea, sister, sin, wonder (all four are members of a septet). Categories will be more specific than e.g., '5-letter-words', 'names', or 'verbs'. There is exactly one solution. Think step-by-step, and then give your answer in **bold** as a list of the 8 items separated by commas, ordered by group (for example, **bass, founder, salmon, trout, ant, drill, island, opal**). If you don't know the answer, make your best guess. The items are: steer, bully, cow, lead, daunt, guide, rattle, direct."
+    },
+    {
+        "question_id": "0b2dc3b0bda3a827e457d473a6247d07323c145f78eb261cc7b0c3b5ba105347",
+        "category": "language",
+        "ground_truth": "easy, flexible, open, receptive, evil, live, veil, vile",
+        "turns": [
+            "You are given 8 words/phrases below. Find two groups of four items that share something in common. Here are a few examples of groups: bass, flounder, salmon, trout (all four are fish); ant, drill, island, opal (all four are two-word phrases that start with 'fire'); are, why, bee, queue (all four are homophones of letters); sea, sister, sin, wonder (all four are members of a septet). Categories will be more specific than e.g., '5-letter-words', 'names', or 'verbs'. There is exactly one solution. Think step-by-step, and then give your answer in **bold** as a list of the 8 items separated by commas, ordered by group (for example, **bass, founder, salmon, trout, ant, drill, island, opal**). If you don't know the answer, make your best guess. The items are: vile, veil, live, open, easy, receptive, evil, flexible."
+        ],
+        "group": "writing",
+        "movie_name": "",
+        "release_date": "2024-05-28",
+        "task": "connections",
+        "livebench_release_date": "2024-06-24 00:00:00",
+        "livebench_removal_date": "",
+        "raw_id": 352,
+        "citation": "https://www.nytimes.com/games/connections, via https://word.tips/todays-nyt-connections-answers/",
+        "input": "You are given 8 words/phrases below. Find two groups of four items that share something in common. Here are a few examples of groups: bass, flounder, salmon, trout (all four are fish); ant, drill, island, opal (all four are two-word phrases that start with 'fire'); are, why, bee, queue (all four are homophones of letters); sea, sister, sin, wonder (all four are members of a septet). Categories will be more specific than e.g., '5-letter-words', 'names', or 'verbs'. There is exactly one solution. Think step-by-step, and then give your answer in **bold** as a list of the 8 items separated by commas, ordered by group (for example, **bass, founder, salmon, trout, ant, drill, island, opal**). If you don't know the answer, make your best guess. The items are: vile, veil, live, open, easy, receptive, evil, flexible."
+    },
+    {
+        "question_id": "85953972cbe6f969c54231e7a7ef3c4113f3d34453b7566028f1306426648966",
+        "category": "language",
+        "ground_truth": "choice, say, voice, vote, flat, natural, quarter, whole",
+        "turns": [
+            "You are given 8 words/phrases below. Find two groups of four items that share something in common. Here are a few examples of groups: bass, flounder, salmon, trout (all four are fish); ant, drill, island, opal (all four are two-word phrases that start with 'fire'); are, why, bee, queue (all four are homophones of letters); sea, sister, sin, wonder (all four are members of a septet). Categories will be more specific than e.g., '5-letter-words', 'names', or 'verbs'. There is exactly one solution. Think step-by-step, and then give your answer in **bold** as a list of the 8 items separated by commas, ordered by group (for example, **bass, founder, salmon, trout, ant, drill, island, opal**). If you don't know the answer, make your best guess. The items are: voice, whole, quarter, choice, natural, flat, vote, say."
+        ],
+        "group": "writing",
+        "movie_name": "",
+        "release_date": "2024-05-27",
+        "task": "connections",
+        "livebench_release_date": "2024-06-24 00:00:00",
+        "livebench_removal_date": "",
+        "raw_id": 351,
+        "citation": "https://www.nytimes.com/games/connections, via https://word.tips/todays-nyt-connections-answers/",
+        "input": "You are given 8 words/phrases below. Find two groups of four items that share something in common. Here are a few examples of groups: bass, flounder, salmon, trout (all four are fish); ant, drill, island, opal (all four are two-word phrases that start with 'fire'); are, why, bee, queue (all four are homophones of letters); sea, sister, sin, wonder (all four are members of a septet). Categories will be more specific than e.g., '5-letter-words', 'names', or 'verbs'. There is exactly one solution. Think step-by-step, and then give your answer in **bold** as a list of the 8 items separated by commas, ordered by group (for example, **bass, founder, salmon, trout, ant, drill, island, opal**). If you don't know the answer, make your best guess. The items are: voice, whole, quarter, choice, natural, flat, vote, say."
+    },
+    {
+        "question_id": "22844d9b27f05c95b563146a5cd5bf18898bdc1f4ff6b45069e5136bcc767cd7",
+        "category": "language",
+        "ground_truth": "griddle, kettle, pan, pot, geez, seize, tease, wise",
+        "turns": [
+            "You are given 8 words/phrases below. Find two groups of four items that share something in common. Here are a few examples of groups: bass, flounder, salmon, trout (all four are fish); ant, drill, island, opal (all four are two-word phrases that start with 'fire'); are, why, bee, queue (all four are homophones of letters); sea, sister, sin, wonder (all four are members of a septet). Categories will be more specific than e.g., '5-letter-words', 'names', or 'verbs'. There is exactly one solution. Think step-by-step, and then give your answer in **bold** as a list of the 8 items separated by commas, ordered by group (for example, **bass, founder, salmon, trout, ant, drill, island, opal**). If you don't know the answer, make your best guess. The items are: seize, kettle, geez, pot, wise, pan, tease, griddle."
+        ],
+        "group": "writing",
+        "movie_name": "",
+        "release_date": "2024-05-26",
+        "task": "connections",
+        "livebench_release_date": "2024-06-24 00:00:00",
+        "livebench_removal_date": "",
+        "raw_id": 350,
+        "citation": "https://www.nytimes.com/games/connections, via https://word.tips/todays-nyt-connections-answers/",
+        "input": "You are given 8 words/phrases below. Find two groups of four items that share something in common. Here are a few examples of groups: bass, flounder, salmon, trout (all four are fish); ant, drill, island, opal (all four are two-word phrases that start with 'fire'); are, why, bee, queue (all four are homophones of letters); sea, sister, sin, wonder (all four are members of a septet). Categories will be more specific than e.g., '5-letter-words', 'names', or 'verbs'. There is exactly one solution. Think step-by-step, and then give your answer in **bold** as a list of the 8 items separated by commas, ordered by group (for example, **bass, founder, salmon, trout, ant, drill, island, opal**). If you don't know the answer, make your best guess. The items are: seize, kettle, geez, pot, wise, pan, tease, griddle."
+    },
+    {
+        "question_id": "a76890c3d41ecdb8e15d138ad65c13ebac9cd192d4593d44cfd6f95a355a8893",
+        "category": "language",
+        "ground_truth": "first, initial, maiden, premier, back, champion, endorse, support",
+        "turns": [
+            "You are given 8 words/phrases below. Find two groups of four items that share something in common. Here are a few examples of groups: bass, flounder, salmon, trout (all four are fish); ant, drill, island, opal (all four are two-word phrases that start with 'fire'); are, why, bee, queue (all four are homophones of letters); sea, sister, sin, wonder (all four are members of a septet). Categories will be more specific than e.g., '5-letter-words', 'names', or 'verbs'. There is exactly one solution. Think step-by-step, and then give your answer in **bold** as a list of the 8 items separated by commas, ordered by group (for example, **bass, founder, salmon, trout, ant, drill, island, opal**). If you don't know the answer, make your best guess. The items are: premier, champion, first, back, maiden, endorse, initial, support."
+        ],
+        "group": "writing",
+        "movie_name": "",
+        "release_date": "2024-05-25",
+        "task": "connections",
+        "livebench_release_date": "2024-06-24 00:00:00",
+        "livebench_removal_date": "",
+        "raw_id": 349,
+        "citation": "https://www.nytimes.com/games/connections, via https://word.tips/todays-nyt-connections-answers/",
+        "input": "You are given 8 words/phrases below. Find two groups of four items that share something in common. Here are a few examples of groups: bass, flounder, salmon, trout (all four are fish); ant, drill, island, opal (all four are two-word phrases that start with 'fire'); are, why, bee, queue (all four are homophones of letters); sea, sister, sin, wonder (all four are members of a septet). Categories will be more specific than e.g., '5-letter-words', 'names', or 'verbs'. There is exactly one solution. Think step-by-step, and then give your answer in **bold** as a list of the 8 items separated by commas, ordered by group (for example, **bass, founder, salmon, trout, ant, drill, island, opal**). If you don't know the answer, make your best guess. The items are: premier, champion, first, back, maiden, endorse, initial, support."
+    },
+    {
+        "question_id": "4f8cfb2b01d2204fa3815ff1ea8d2f59b3553789c7c97dbe9de13d62b6cb4b5d",
+        "category": "language",
+        "ground_truth": "drain, duct, pipe, sewer, egg, knuckles, smile, window",
+        "turns": [
+            "You are given 8 words/phrases below. Find two groups of four items that share something in common. Here are a few examples of groups: bass, flounder, salmon, trout (all four are fish); ant, drill, island, opal (all four are two-word phrases that start with 'fire'); are, why, bee, queue (all four are homophones of letters); sea, sister, sin, wonder (all four are members of a septet). Categories will be more specific than e.g., '5-letter-words', 'names', or 'verbs'. There is exactly one solution. Think step-by-step, and then give your answer in **bold** as a list of the 8 items separated by commas, ordered by group (for example, **bass, founder, salmon, trout, ant, drill, island, opal**). If you don't know the answer, make your best guess. The items are: sewer, window, pipe, drain, duct, smile, egg, knuckles."
+        ],
+        "group": "writing",
+        "movie_name": "",
+        "release_date": "2024-05-24",
+        "task": "connections",
+        "livebench_release_date": "2024-06-24 00:00:00",
+        "livebench_removal_date": "",
+        "raw_id": 348,
+        "citation": "https://www.nytimes.com/games/connections, via https://word.tips/todays-nyt-connections-answers/",
+        "input": "You are given 8 words/phrases below. Find two groups of four items that share something in common. Here are a few examples of groups: bass, flounder, salmon, trout (all four are fish); ant, drill, island, opal (all four are two-word phrases that start with 'fire'); are, why, bee, queue (all four are homophones of letters); sea, sister, sin, wonder (all four are members of a septet). Categories will be more specific than e.g., '5-letter-words', 'names', or 'verbs'. There is exactly one solution. Think step-by-step, and then give your answer in **bold** as a list of the 8 items separated by commas, ordered by group (for example, **bass, founder, salmon, trout, ant, drill, island, opal**). If you don't know the answer, make your best guess. The items are: sewer, window, pipe, drain, duct, smile, egg, knuckles."
+    },
+    {
+        "question_id": "3cd7f7fb2bb6ca17b3104b69c4239c6c4d62406ea1be730557f16697bf5c3373",
+        "category": "language",
+        "ground_truth": "exploit, leverage, milk, use, done, over, through, up",
+        "turns": [
+            "You are given 8 words/phrases below. Find two groups of four items that share something in common. Here are a few examples of groups: bass, flounder, salmon, trout (all four are fish); ant, drill, island, opal (all four are two-word phrases that start with 'fire'); are, why, bee, queue (all four are homophones of letters); sea, sister, sin, wonder (all four are members of a septet). Categories will be more specific than e.g., '5-letter-words', 'names', or 'verbs'. There is exactly one solution. Think step-by-step, and then give your answer in **bold** as a list of the 8 items separated by commas, ordered by group (for example, **bass, founder, salmon, trout, ant, drill, island, opal**). If you don't know the answer, make your best guess. The items are: use, leverage, through, up, exploit, done, over, milk."
+        ],
+        "group": "writing",
+        "movie_name": "",
+        "release_date": "2024-05-23",
+        "task": "connections",
+        "livebench_release_date": "2024-06-24 00:00:00",
+        "livebench_removal_date": "",
+        "raw_id": 347,
+        "citation": "https://www.nytimes.com/games/connections, via https://word.tips/todays-nyt-connections-answers/",
+        "input": "You are given 8 words/phrases below. Find two groups of four items that share something in common. Here are a few examples of groups: bass, flounder, salmon, trout (all four are fish); ant, drill, island, opal (all four are two-word phrases that start with 'fire'); are, why, bee, queue (all four are homophones of letters); sea, sister, sin, wonder (all four are members of a septet). Categories will be more specific than e.g., '5-letter-words', 'names', or 'verbs'. There is exactly one solution. Think step-by-step, and then give your answer in **bold** as a list of the 8 items separated by commas, ordered by group (for example, **bass, founder, salmon, trout, ant, drill, island, opal**). If you don't know the answer, make your best guess. The items are: use, leverage, through, up, exploit, done, over, milk."
+    },
+    {
+        "question_id": "4b930fdccf2618aae73854ae6be6fb831e98158fb62c0779f74e24392629c58b",
+        "category": "language",
+        "ground_truth": "head, knees, shoulders, toes, pares, peels, shells, shucks",
+        "turns": [
+            "You are given 8 words/phrases below. Find two groups of four items that share something in common. Here are a few examples of groups: bass, flounder, salmon, trout (all four are fish); ant, drill, island, opal (all four are two-word phrases that start with 'fire'); are, why, bee, queue (all four are homophones of letters); sea, sister, sin, wonder (all four are members of a septet). Categories will be more specific than e.g., '5-letter-words', 'names', or 'verbs'. There is exactly one solution. Think step-by-step, and then give your answer in **bold** as a list of the 8 items separated by commas, ordered by group (for example, **bass, founder, salmon, trout, ant, drill, island, opal**). If you don't know the answer, make your best guess. The items are: knees, shoulders, toes, shucks, pares, head, shells, peels."
+        ],
+        "group": "writing",
+        "movie_name": "",
+        "release_date": "2024-05-22",
+        "task": "connections",
+        "livebench_release_date": "2024-06-24 00:00:00",
+        "livebench_removal_date": "",
+        "raw_id": 346,
+        "citation": "https://www.nytimes.com/games/connections, via https://word.tips/todays-nyt-connections-answers/",
+        "input": "You are given 8 words/phrases below. Find two groups of four items that share something in common. Here are a few examples of groups: bass, flounder, salmon, trout (all four are fish); ant, drill, island, opal (all four are two-word phrases that start with 'fire'); are, why, bee, queue (all four are homophones of letters); sea, sister, sin, wonder (all four are members of a septet). Categories will be more specific than e.g., '5-letter-words', 'names', or 'verbs'. There is exactly one solution. Think step-by-step, and then give your answer in **bold** as a list of the 8 items separated by commas, ordered by group (for example, **bass, founder, salmon, trout, ant, drill, island, opal**). If you don't know the answer, make your best guess. The items are: knees, shoulders, toes, shucks, pares, head, shells, peels."
+    },
+    {
+        "question_id": "04a66da39fcd1eeabb041b30c37d8fc08ba62740d89466ad05739cc95ca22695",
+        "category": "language",
+        "ground_truth": "bit, dash, pinch, touch, buy, deal, steal, value",
+        "turns": [
+            "You are given 8 words/phrases below. Find two groups of four items that share something in common. Here are a few examples of groups: bass, flounder, salmon, trout (all four are fish); ant, drill, island, opal (all four are two-word phrases that start with 'fire'); are, why, bee, queue (all four are homophones of letters); sea, sister, sin, wonder (all four are members of a septet). Categories will be more specific than e.g., '5-letter-words', 'names', or 'verbs'. There is exactly one solution. Think step-by-step, and then give your answer in **bold** as a list of the 8 items separated by commas, ordered by group (for example, **bass, founder, salmon, trout, ant, drill, island, opal**). If you don't know the answer, make your best guess. The items are: value, touch, bit, steal, deal, pinch, dash, buy."
+        ],
+        "group": "writing",
+        "movie_name": "",
+        "release_date": "2024-05-21",
+        "task": "connections",
+        "livebench_release_date": "2024-06-24 00:00:00",
+        "livebench_removal_date": "",
+        "raw_id": 345,
+        "citation": "https://www.nytimes.com/games/connections, via https://word.tips/todays-nyt-connections-answers/",
+        "input": "You are given 8 words/phrases below. Find two groups of four items that share something in common. Here are a few examples of groups: bass, flounder, salmon, trout (all four are fish); ant, drill, island, opal (all four are two-word phrases that start with 'fire'); are, why, bee, queue (all four are homophones of letters); sea, sister, sin, wonder (all four are members of a septet). Categories will be more specific than e.g., '5-letter-words', 'names', or 'verbs'. There is exactly one solution. Think step-by-step, and then give your answer in **bold** as a list of the 8 items separated by commas, ordered by group (for example, **bass, founder, salmon, trout, ant, drill, island, opal**). If you don't know the answer, make your best guess. The items are: value, touch, bit, steal, deal, pinch, dash, buy."
+    },
+    {
+        "question_id": "9b7603150b0116f852a0ea115e4933d245cbee57256e0813b7a15a10f3571759",
+        "category": "language",
+        "ground_truth": "charm, hex, magic, spell, cape, mask, tights, underwear",
+        "turns": [
+            "You are given 8 words/phrases below. Find two groups of four items that share something in common. Here are a few examples of groups: bass, flounder, salmon, trout (all four are fish); ant, drill, island, opal (all four are two-word phrases that start with 'fire'); are, why, bee, queue (all four are homophones of letters); sea, sister, sin, wonder (all four are members of a septet). Categories will be more specific than e.g., '5-letter-words', 'names', or 'verbs'. There is exactly one solution. Think step-by-step, and then give your answer in **bold** as a list of the 8 items separated by commas, ordered by group (for example, **bass, founder, salmon, trout, ant, drill, island, opal**). If you don't know the answer, make your best guess. The items are: tights, charm, underwear, magic, hex, mask, cape, spell."
+        ],
+        "group": "writing",
+        "movie_name": "",
+        "release_date": "2024-05-20",
+        "task": "connections",
+        "livebench_release_date": "2024-06-24 00:00:00",
+        "livebench_removal_date": "",
+        "raw_id": 344,
+        "citation": "https://www.nytimes.com/games/connections, via https://word.tips/todays-nyt-connections-answers/",
+        "input": "You are given 8 words/phrases below. Find two groups of four items that share something in common. Here are a few examples of groups: bass, flounder, salmon, trout (all four are fish); ant, drill, island, opal (all four are two-word phrases that start with 'fire'); are, why, bee, queue (all four are homophones of letters); sea, sister, sin, wonder (all four are members of a septet). Categories will be more specific than e.g., '5-letter-words', 'names', or 'verbs'. There is exactly one solution. Think step-by-step, and then give your answer in **bold** as a list of the 8 items separated by commas, ordered by group (for example, **bass, founder, salmon, trout, ant, drill, island, opal**). If you don't know the answer, make your best guess. The items are: tights, charm, underwear, magic, hex, mask, cape, spell."
+    },
+    {
+        "question_id": "7589dd96e6c79a7a5a4e1d1c487c2c4092674a0d130f080c3086ab426c060ce5",
+        "category": "language",
+        "ground_truth": "flush, loaded, rich, wealthy, chop, cube, dice, mince",
+        "turns": [
+            "You are given 8 words/phrases below. Find two groups of four items that share something in common. Here are a few examples of groups: bass, flounder, salmon, trout (all four are fish); ant, drill, island, opal (all four are two-word phrases that start with 'fire'); are, why, bee, queue (all four are homophones of letters); sea, sister, sin, wonder (all four are members of a septet). Categories will be more specific than e.g., '5-letter-words', 'names', or 'verbs'. There is exactly one solution. Think step-by-step, and then give your answer in **bold** as a list of the 8 items separated by commas, ordered by group (for example, **bass, founder, salmon, trout, ant, drill, island, opal**). If you don't know the answer, make your best guess. The items are: dice, flush, cube, wealthy, chop, loaded, rich, mince."
+        ],
+        "group": "writing",
+        "movie_name": "",
+        "release_date": "2024-05-19",
+        "task": "connections",
+        "livebench_release_date": "2024-06-24 00:00:00",
+        "livebench_removal_date": "",
+        "raw_id": 343,
+        "citation": "https://www.nytimes.com/games/connections, via https://word.tips/todays-nyt-connections-answers/",
+        "input": "You are given 8 words/phrases below. Find two groups of four items that share something in common. Here are a few examples of groups: bass, flounder, salmon, trout (all four are fish); ant, drill, island, opal (all four are two-word phrases that start with 'fire'); are, why, bee, queue (all four are homophones of letters); sea, sister, sin, wonder (all four are members of a septet). Categories will be more specific than e.g., '5-letter-words', 'names', or 'verbs'. There is exactly one solution. Think step-by-step, and then give your answer in **bold** as a list of the 8 items separated by commas, ordered by group (for example, **bass, founder, salmon, trout, ant, drill, island, opal**). If you don't know the answer, make your best guess. The items are: dice, flush, cube, wealthy, chop, loaded, rich, mince."
+    },
+    {
+        "question_id": "f5e768a74ea667891aa550d4bdf2f869ff01dd9660e866aab2d1c32f853b6446",
+        "category": "language",
+        "ground_truth": "bulldog, catfish, horsefly, turtledove, clock, mattress, mousetrap, trampoline",
+        "turns": [
+            "You are given 8 words/phrases below. Find two groups of four items that share something in common. Here are a few examples of groups: bass, flounder, salmon, trout (all four are fish); ant, drill, island, opal (all four are two-word phrases that start with 'fire'); are, why, bee, queue (all four are homophones of letters); sea, sister, sin, wonder (all four are members of a septet). Categories will be more specific than e.g., '5-letter-words', 'names', or 'verbs'. There is exactly one solution. Think step-by-step, and then give your answer in **bold** as a list of the 8 items separated by commas, ordered by group (for example, **bass, founder, salmon, trout, ant, drill, island, opal**). If you don't know the answer, make your best guess. The items are: turtledove, bulldog, mattress, trampoline, mousetrap, catfish, horsefly, clock."
+        ],
+        "group": "writing",
+        "movie_name": "",
+        "release_date": "2024-05-18",
+        "task": "connections",
+        "livebench_release_date": "2024-06-24 00:00:00",
+        "livebench_removal_date": "",
+        "raw_id": 342,
+        "citation": "https://www.nytimes.com/games/connections, via https://word.tips/todays-nyt-connections-answers/",
+        "input": "You are given 8 words/phrases below. Find two groups of four items that share something in common. Here are a few examples of groups: bass, flounder, salmon, trout (all four are fish); ant, drill, island, opal (all four are two-word phrases that start with 'fire'); are, why, bee, queue (all four are homophones of letters); sea, sister, sin, wonder (all four are members of a septet). Categories will be more specific than e.g., '5-letter-words', 'names', or 'verbs'. There is exactly one solution. Think step-by-step, and then give your answer in **bold** as a list of the 8 items separated by commas, ordered by group (for example, **bass, founder, salmon, trout, ant, drill, island, opal**). If you don't know the answer, make your best guess. The items are: turtledove, bulldog, mattress, trampoline, mousetrap, catfish, horsefly, clock."
+    },
+    {
+        "question_id": "fce6f8779ba9e0fef76aac7f4d4de2fb84bb92846ae9b7a32177658890df2b40",
+        "category": "language",
+        "ground_truth": "base, dirty, low, vile, fruit, pitcher, skull, tablecloth, batter, can, garden, pong",
+        "turns": [
+            "You are given 12 words/phrases below. Find three groups of four items that share something in common. Here are a few examples of groups: bass, flounder, salmon, trout (all four are fish); ant, drill, island, opal (all four are two-word phrases that start with 'fire'); are, why, bee, queue (all four are homophones of letters); sea, sister, sin, wonder (all four are members of a septet). Categories will be more specific than e.g., '5-letter-words', 'names', or 'verbs'. There is exactly one solution. Think step-by-step, and then give your answer in **bold** as a list of the 12 items separated by commas, ordered by group (for example, **bass, founder, salmon, trout, ant, drill, island, opal, are, why, bee, queue**). If you don't know the answer, make your best guess. The items are: fruit, batter, vile, can, low, pong, garden, base, skull, dirty, pitcher, tablecloth."
+        ],
+        "group": "writing",
+        "movie_name": "",
+        "release_date": "2024-05-17",
+        "task": "connections",
+        "livebench_release_date": "2024-06-24 00:00:00",
+        "livebench_removal_date": "",
+        "raw_id": 341,
+        "citation": "https://www.nytimes.com/games/connections, via https://word.tips/todays-nyt-connections-answers/",
+        "input": "You are given 12 words/phrases below. Find three groups of four items that share something in common. Here are a few examples of groups: bass, flounder, salmon, trout (all four are fish); ant, drill, island, opal (all four are two-word phrases that start with 'fire'); are, why, bee, queue (all four are homophones of letters); sea, sister, sin, wonder (all four are members of a septet). Categories will be more specific than e.g., '5-letter-words', 'names', or 'verbs'. There is exactly one solution. Think step-by-step, and then give your answer in **bold** as a list of the 12 items separated by commas, ordered by group (for example, **bass, founder, salmon, trout, ant, drill, island, opal, are, why, bee, queue**). If you don't know the answer, make your best guess. The items are: fruit, batter, vile, can, low, pong, garden, base, skull, dirty, pitcher, tablecloth."
+    },
+    {
+        "question_id": "7c09c2e8816a60195d9e5508455ddfc18298cec958e323471e1298cc873a701a",
+        "category": "language",
+        "ground_truth": "pic, shot, snap, still, cinch, ice, lock, secure, breeze, coast, glide, sail",
+        "turns": [
+            "You are given 12 words/phrases below. Find three groups of four items that share something in common. Here are a few examples of groups: bass, flounder, salmon, trout (all four are fish); ant, drill, island, opal (all four are two-word phrases that start with 'fire'); are, why, bee, queue (all four are homophones of letters); sea, sister, sin, wonder (all four are members of a septet). Categories will be more specific than e.g., '5-letter-words', 'names', or 'verbs'. There is exactly one solution. Think step-by-step, and then give your answer in **bold** as a list of the 12 items separated by commas, ordered by group (for example, **bass, founder, salmon, trout, ant, drill, island, opal, are, why, bee, queue**). If you don't know the answer, make your best guess. The items are: shot, still, cinch, secure, coast, lock, sail, pic, breeze, glide, snap, ice."
+        ],
+        "group": "writing",
+        "movie_name": "",
+        "release_date": "2024-05-16",
+        "task": "connections",
+        "livebench_release_date": "2024-06-24 00:00:00",
+        "livebench_removal_date": "",
+        "raw_id": 340,
+        "citation": "https://www.nytimes.com/games/connections, via https://word.tips/todays-nyt-connections-answers/",
+        "input": "You are given 12 words/phrases below. Find three groups of four items that share something in common. Here are a few examples of groups: bass, flounder, salmon, trout (all four are fish); ant, drill, island, opal (all four are two-word phrases that start with 'fire'); are, why, bee, queue (all four are homophones of letters); sea, sister, sin, wonder (all four are members of a septet). Categories will be more specific than e.g., '5-letter-words', 'names', or 'verbs'. There is exactly one solution. Think step-by-step, and then give your answer in **bold** as a list of the 12 items separated by commas, ordered by group (for example, **bass, founder, salmon, trout, ant, drill, island, opal, are, why, bee, queue**). If you don't know the answer, make your best guess. The items are: shot, still, cinch, secure, coast, lock, sail, pic, breeze, glide, snap, ice."
+    },
+    {
+        "question_id": "621580d5f240138b7f4f38c7e7f6286fb779ef7eaa30785a164fcd7537f7528e",
+        "category": "language",
+        "ground_truth": "act, bill, measure, resolution, direct, frank, open, straight, aura, buck, doge, hoda",
+        "turns": [
+            "You are given 12 words/phrases below. Find three groups of four items that share something in common. Here are a few examples of groups: bass, flounder, salmon, trout (all four are fish); ant, drill, island, opal (all four are two-word phrases that start with 'fire'); are, why, bee, queue (all four are homophones of letters); sea, sister, sin, wonder (all four are members of a septet). Categories will be more specific than e.g., '5-letter-words', 'names', or 'verbs'. There is exactly one solution. Think step-by-step, and then give your answer in **bold** as a list of the 12 items separated by commas, ordered by group (for example, **bass, founder, salmon, trout, ant, drill, island, opal, are, why, bee, queue**). If you don't know the answer, make your best guess. The items are: frank, open, direct, resolution, buck, hoda, doge, straight, act, measure, aura, bill."
+        ],
+        "group": "writing",
+        "movie_name": "",
+        "release_date": "2024-05-15",
+        "task": "connections",
+        "livebench_release_date": "2024-06-24 00:00:00",
+        "livebench_removal_date": "",
+        "raw_id": 339,
+        "citation": "https://www.nytimes.com/games/connections, via https://word.tips/todays-nyt-connections-answers/",
+        "input": "You are given 12 words/phrases below. Find three groups of four items that share something in common. Here are a few examples of groups: bass, flounder, salmon, trout (all four are fish); ant, drill, island, opal (all four are two-word phrases that start with 'fire'); are, why, bee, queue (all four are homophones of letters); sea, sister, sin, wonder (all four are members of a septet). Categories will be more specific than e.g., '5-letter-words', 'names', or 'verbs'. There is exactly one solution. Think step-by-step, and then give your answer in **bold** as a list of the 12 items separated by commas, ordered by group (for example, **bass, founder, salmon, trout, ant, drill, island, opal, are, why, bee, queue**). If you don't know the answer, make your best guess. The items are: frank, open, direct, resolution, buck, hoda, doge, straight, act, measure, aura, bill."
+    },
+    {
+        "question_id": "56d4b546a68c2b2ac65e2f3f92a3e077aba86eedc9904a4493642904374818a6",
+        "category": "language",
+        "ground_truth": "dine, feast, feed, sup, ella, me, sus, yo, fit, jim, pickings, shady",
+        "turns": [
+            "You are given 12 words/phrases below. Find three groups of four items that share something in common. Here are a few examples of groups: bass, flounder, salmon, trout (all four are fish); ant, drill, island, opal (all four are two-word phrases that start with 'fire'); are, why, bee, queue (all four are homophones of letters); sea, sister, sin, wonder (all four are members of a septet). Categories will be more specific than e.g., '5-letter-words', 'names', or 'verbs'. There is exactly one solution. Think step-by-step, and then give your answer in **bold** as a list of the 12 items separated by commas, ordered by group (for example, **bass, founder, salmon, trout, ant, drill, island, opal, are, why, bee, queue**). If you don't know the answer, make your best guess. The items are: shady, me, feed, dine, feast, ella, pickings, yo, fit, sus, sup, jim."
+        ],
+        "group": "writing",
+        "movie_name": "",
+        "release_date": "2024-05-14",
+        "task": "connections",
+        "livebench_release_date": "2024-06-24 00:00:00",
+        "livebench_removal_date": "",
+        "raw_id": 338,
+        "citation": "https://www.nytimes.com/games/connections, via https://word.tips/todays-nyt-connections-answers/",
+        "input": "You are given 12 words/phrases below. Find three groups of four items that share something in common. Here are a few examples of groups: bass, flounder, salmon, trout (all four are fish); ant, drill, island, opal (all four are two-word phrases that start with 'fire'); are, why, bee, queue (all four are homophones of letters); sea, sister, sin, wonder (all four are members of a septet). Categories will be more specific than e.g., '5-letter-words', 'names', or 'verbs'. There is exactly one solution. Think step-by-step, and then give your answer in **bold** as a list of the 12 items separated by commas, ordered by group (for example, **bass, founder, salmon, trout, ant, drill, island, opal, are, why, bee, queue**). If you don't know the answer, make your best guess. The items are: shady, me, feed, dine, feast, ella, pickings, yo, fit, sus, sup, jim."
+    },
+    {
+        "question_id": "d0870e944f1a5ed63c14f2b105362d491e861ddd35fa680dc4ab922b6a692ddc",
+        "category": "language",
+        "ground_truth": "brand, collection, label, line, bunny, duck, martian, pig, greece, hare, katz, maim",
+        "turns": [
+            "You are given 12 words/phrases below. Find three groups of four items that share something in common. Here are a few examples of groups: bass, flounder, salmon, trout (all four are fish); ant, drill, island, opal (all four are two-word phrases that start with 'fire'); are, why, bee, queue (all four are homophones of letters); sea, sister, sin, wonder (all four are members of a septet). Categories will be more specific than e.g., '5-letter-words', 'names', or 'verbs'. There is exactly one solution. Think step-by-step, and then give your answer in **bold** as a list of the 12 items separated by commas, ordered by group (for example, **bass, founder, salmon, trout, ant, drill, island, opal, are, why, bee, queue**). If you don't know the answer, make your best guess. The items are: brand, collection, label, hare, greece, line, duck, maim, pig, bunny, katz, martian."
+        ],
+        "group": "writing",
+        "movie_name": "",
+        "release_date": "2024-05-13",
+        "task": "connections",
+        "livebench_release_date": "2024-06-24 00:00:00",
+        "livebench_removal_date": "",
+        "raw_id": 337,
+        "citation": "https://www.nytimes.com/games/connections, via https://word.tips/todays-nyt-connections-answers/",
+        "input": "You are given 12 words/phrases below. Find three groups of four items that share something in common. Here are a few examples of groups: bass, flounder, salmon, trout (all four are fish); ant, drill, island, opal (all four are two-word phrases that start with 'fire'); are, why, bee, queue (all four are homophones of letters); sea, sister, sin, wonder (all four are members of a septet). Categories will be more specific than e.g., '5-letter-words', 'names', or 'verbs'. There is exactly one solution. Think step-by-step, and then give your answer in **bold** as a list of the 12 items separated by commas, ordered by group (for example, **bass, founder, salmon, trout, ant, drill, island, opal, are, why, bee, queue**). If you don't know the answer, make your best guess. The items are: brand, collection, label, hare, greece, line, duck, maim, pig, bunny, katz, martian."
+    },
+    {
+        "question_id": "091587d95e7240906a6a0620d5ee627ec568e6394791c69285b6d80841c87016",
+        "category": "language",
+        "ground_truth": "chuck, flank, loin, round, mia, omg, pin, ram, libre, mama, mule, sling",
+        "turns": [
+            "You are given 12 words/phrases below. Find three groups of four items that share something in common. Here are a few examples of groups: bass, flounder, salmon, trout (all four are fish); ant, drill, island, opal (all four are two-word phrases that start with 'fire'); are, why, bee, queue (all four are homophones of letters); sea, sister, sin, wonder (all four are members of a septet). Categories will be more specific than e.g., '5-letter-words', 'names', or 'verbs'. There is exactly one solution. Think step-by-step, and then give your answer in **bold** as a list of the 12 items separated by commas, ordered by group (for example, **bass, founder, salmon, trout, ant, drill, island, opal, are, why, bee, queue**). If you don't know the answer, make your best guess. The items are: libre, sling, pin, omg, mama, mia, loin, ram, round, chuck, flank, mule."
+        ],
+        "group": "writing",
+        "movie_name": "",
+        "release_date": "2024-05-12",
+        "task": "connections",
+        "livebench_release_date": "2024-06-24 00:00:00",
+        "livebench_removal_date": "",
+        "raw_id": 336,
+        "citation": "https://www.nytimes.com/games/connections, via https://word.tips/todays-nyt-connections-answers/",
+        "input": "You are given 12 words/phrases below. Find three groups of four items that share something in common. Here are a few examples of groups: bass, flounder, salmon, trout (all four are fish); ant, drill, island, opal (all four are two-word phrases that start with 'fire'); are, why, bee, queue (all four are homophones of letters); sea, sister, sin, wonder (all four are members of a septet). Categories will be more specific than e.g., '5-letter-words', 'names', or 'verbs'. There is exactly one solution. Think step-by-step, and then give your answer in **bold** as a list of the 12 items separated by commas, ordered by group (for example, **bass, founder, salmon, trout, ant, drill, island, opal, are, why, bee, queue**). If you don't know the answer, make your best guess. The items are: libre, sling, pin, omg, mama, mia, loin, ram, round, chuck, flank, mule."
+    },
+    {
+        "question_id": "97f0d2eaabd29ef3f04264e1fda600fa2248697ee1acd7cea9da8a940cc43215",
+        "category": "language",
+        "ground_truth": "headliner, lead, principal, star, cross, garlic, silver, sun, cracked, lampoon, mad, onion",
+        "turns": [
+            "You are given 12 words/phrases below. Find three groups of four items that share something in common. Here are a few examples of groups: bass, flounder, salmon, trout (all four are fish); ant, drill, island, opal (all four are two-word phrases that start with 'fire'); are, why, bee, queue (all four are homophones of letters); sea, sister, sin, wonder (all four are members of a septet). Categories will be more specific than e.g., '5-letter-words', 'names', or 'verbs'. There is exactly one solution. Think step-by-step, and then give your answer in **bold** as a list of the 12 items separated by commas, ordered by group (for example, **bass, founder, salmon, trout, ant, drill, island, opal, are, why, bee, queue**). If you don't know the answer, make your best guess. The items are: sun, mad, cross, cracked, onion, silver, lampoon, star, lead, headliner, garlic, principal."
+        ],
+        "group": "writing",
+        "movie_name": "",
+        "release_date": "2024-05-11",
+        "task": "connections",
+        "livebench_release_date": "2024-06-24 00:00:00",
+        "livebench_removal_date": "",
+        "raw_id": 335,
+        "citation": "https://www.nytimes.com/games/connections, via https://word.tips/todays-nyt-connections-answers/",
+        "input": "You are given 12 words/phrases below. Find three groups of four items that share something in common. Here are a few examples of groups: bass, flounder, salmon, trout (all four are fish); ant, drill, island, opal (all four are two-word phrases that start with 'fire'); are, why, bee, queue (all four are homophones of letters); sea, sister, sin, wonder (all four are members of a septet). Categories will be more specific than e.g., '5-letter-words', 'names', or 'verbs'. There is exactly one solution. Think step-by-step, and then give your answer in **bold** as a list of the 12 items separated by commas, ordered by group (for example, **bass, founder, salmon, trout, ant, drill, island, opal, are, why, bee, queue**). If you don't know the answer, make your best guess. The items are: sun, mad, cross, cracked, onion, silver, lampoon, star, lead, headliner, garlic, principal."
+    },
+    {
+        "question_id": "04e7a52f8d0a35bb77245427946aaf7fb814ab7a93e972e246608efcb46a82a6",
+        "category": "language",
+        "ground_truth": "brass, cheek, gall, nerve, collar, halter, harness, lead, carousel, globe, record, top",
+        "turns": [
+            "You are given 12 words/phrases below. Find three groups of four items that share something in common. Here are a few examples of groups: bass, flounder, salmon, trout (all four are fish); ant, drill, island, opal (all four are two-word phrases that start with 'fire'); are, why, bee, queue (all four are homophones of letters); sea, sister, sin, wonder (all four are members of a septet). Categories will be more specific than e.g., '5-letter-words', 'names', or 'verbs'. There is exactly one solution. Think step-by-step, and then give your answer in **bold** as a list of the 12 items separated by commas, ordered by group (for example, **bass, founder, salmon, trout, ant, drill, island, opal, are, why, bee, queue**). If you don't know the answer, make your best guess. The items are: cheek, halter, gall, globe, brass, collar, lead, record, carousel, top, harness, nerve."
+        ],
+        "group": "writing",
+        "movie_name": "",
+        "release_date": "2024-05-10",
+        "task": "connections",
+        "livebench_release_date": "2024-06-24 00:00:00",
+        "livebench_removal_date": "",
+        "raw_id": 334,
+        "citation": "https://www.nytimes.com/games/connections, via https://word.tips/todays-nyt-connections-answers/",
+        "input": "You are given 12 words/phrases below. Find three groups of four items that share something in common. Here are a few examples of groups: bass, flounder, salmon, trout (all four are fish); ant, drill, island, opal (all four are two-word phrases that start with 'fire'); are, why, bee, queue (all four are homophones of letters); sea, sister, sin, wonder (all four are members of a septet). Categories will be more specific than e.g., '5-letter-words', 'names', or 'verbs'. There is exactly one solution. Think step-by-step, and then give your answer in **bold** as a list of the 12 items separated by commas, ordered by group (for example, **bass, founder, salmon, trout, ant, drill, island, opal, are, why, bee, queue**). If you don't know the answer, make your best guess. The items are: cheek, halter, gall, globe, brass, collar, lead, record, carousel, top, harness, nerve."
+    },
+    {
+        "question_id": "623a587a57c3af61bd3bf557c26aa9deac20a1824f4df446d9725da1de9e74ef",
+        "category": "language",
+        "ground_truth": "period, spell, stretch, time, check, contain, curb, limit, bill, egg, fur, venom",
+        "turns": [
+            "You are given 12 words/phrases below. Find three groups of four items that share something in common. Here are a few examples of groups: bass, flounder, salmon, trout (all four are fish); ant, drill, island, opal (all four are two-word phrases that start with 'fire'); are, why, bee, queue (all four are homophones of letters); sea, sister, sin, wonder (all four are members of a septet). Categories will be more specific than e.g., '5-letter-words', 'names', or 'verbs'. There is exactly one solution. Think step-by-step, and then give your answer in **bold** as a list of the 12 items separated by commas, ordered by group (for example, **bass, founder, salmon, trout, ant, drill, island, opal, are, why, bee, queue**). If you don't know the answer, make your best guess. The items are: venom, time, fur, stretch, egg, limit, spell, curb, bill, period, check, contain."
+        ],
+        "group": "writing",
+        "movie_name": "",
+        "release_date": "2024-05-09",
+        "task": "connections",
+        "livebench_release_date": "2024-06-24 00:00:00",
+        "livebench_removal_date": "",
+        "raw_id": 333,
+        "citation": "https://www.nytimes.com/games/connections, via https://word.tips/todays-nyt-connections-answers/",
+        "input": "You are given 12 words/phrases below. Find three groups of four items that share something in common. Here are a few examples of groups: bass, flounder, salmon, trout (all four are fish); ant, drill, island, opal (all four are two-word phrases that start with 'fire'); are, why, bee, queue (all four are homophones of letters); sea, sister, sin, wonder (all four are members of a septet). Categories will be more specific than e.g., '5-letter-words', 'names', or 'verbs'. There is exactly one solution. Think step-by-step, and then give your answer in **bold** as a list of the 12 items separated by commas, ordered by group (for example, **bass, founder, salmon, trout, ant, drill, island, opal, are, why, bee, queue**). If you don't know the answer, make your best guess. The items are: venom, time, fur, stretch, egg, limit, spell, curb, bill, period, check, contain."
+    },
+    {
+        "question_id": "73095f1f830a6bb432b47e9c0293fe1dd8f1853d7c58cae5c4df020d560b14d4",
+        "category": "language",
+        "ground_truth": "brick, cherry, rose, ruby, drop, splash, spot, sprinkle, bird, bubble, mud, sponge",
+        "turns": [
+            "You are given 12 words/phrases below. Find three groups of four items that share something in common. Here are a few examples of groups: bass, flounder, salmon, trout (all four are fish); ant, drill, island, opal (all four are two-word phrases that start with 'fire'); are, why, bee, queue (all four are homophones of letters); sea, sister, sin, wonder (all four are members of a septet). Categories will be more specific than e.g., '5-letter-words', 'names', or 'verbs'. There is exactly one solution. Think step-by-step, and then give your answer in **bold** as a list of the 12 items separated by commas, ordered by group (for example, **bass, founder, salmon, trout, ant, drill, island, opal, are, why, bee, queue**). If you don't know the answer, make your best guess. The items are: sponge, bird, cherry, splash, sprinkle, drop, bubble, ruby, brick, rose, spot, mud."
+        ],
+        "group": "writing",
+        "movie_name": "",
+        "release_date": "2024-05-08",
+        "task": "connections",
+        "livebench_release_date": "2024-06-24 00:00:00",
+        "livebench_removal_date": "",
+        "raw_id": 332,
+        "citation": "https://www.nytimes.com/games/connections, via https://word.tips/todays-nyt-connections-answers/",
+        "input": "You are given 12 words/phrases below. Find three groups of four items that share something in common. Here are a few examples of groups: bass, flounder, salmon, trout (all four are fish); ant, drill, island, opal (all four are two-word phrases that start with 'fire'); are, why, bee, queue (all four are homophones of letters); sea, sister, sin, wonder (all four are members of a septet). Categories will be more specific than e.g., '5-letter-words', 'names', or 'verbs'. There is exactly one solution. Think step-by-step, and then give your answer in **bold** as a list of the 12 items separated by commas, ordered by group (for example, **bass, founder, salmon, trout, ant, drill, island, opal, are, why, bee, queue**). If you don't know the answer, make your best guess. The items are: sponge, bird, cherry, splash, sprinkle, drop, bubble, ruby, brick, rose, spot, mud."
+    },
+    {
+        "question_id": "ea86509f68b4d7c0c9d2b9964141aa874e6c578f06792ff7ff3d3808d6033a2f",
+        "category": "language",
+        "ground_truth": "bun, hero, roll, wrap, chops, kisser, trap, yap, bob, clap, snap, tap",
+        "turns": [
+            "You are given 12 words/phrases below. Find three groups of four items that share something in common. Here are a few examples of groups: bass, flounder, salmon, trout (all four are fish); ant, drill, island, opal (all four are two-word phrases that start with 'fire'); are, why, bee, queue (all four are homophones of letters); sea, sister, sin, wonder (all four are members of a septet). Categories will be more specific than e.g., '5-letter-words', 'names', or 'verbs'. There is exactly one solution. Think step-by-step, and then give your answer in **bold** as a list of the 12 items separated by commas, ordered by group (for example, **bass, founder, salmon, trout, ant, drill, island, opal, are, why, bee, queue**). If you don't know the answer, make your best guess. The items are: clap, snap, chops, tap, bun, hero, kisser, trap, wrap, bob, roll, yap."
+        ],
+        "group": "writing",
+        "movie_name": "",
+        "release_date": "2024-05-07",
+        "task": "connections",
+        "livebench_release_date": "2024-06-24 00:00:00",
+        "livebench_removal_date": "",
+        "raw_id": 331,
+        "citation": "https://www.nytimes.com/games/connections, via https://word.tips/todays-nyt-connections-answers/",
+        "input": "You are given 12 words/phrases below. Find three groups of four items that share something in common. Here are a few examples of groups: bass, flounder, salmon, trout (all four are fish); ant, drill, island, opal (all four are two-word phrases that start with 'fire'); are, why, bee, queue (all four are homophones of letters); sea, sister, sin, wonder (all four are members of a septet). Categories will be more specific than e.g., '5-letter-words', 'names', or 'verbs'. There is exactly one solution. Think step-by-step, and then give your answer in **bold** as a list of the 12 items separated by commas, ordered by group (for example, **bass, founder, salmon, trout, ant, drill, island, opal, are, why, bee, queue**). If you don't know the answer, make your best guess. The items are: clap, snap, chops, tap, bun, hero, kisser, trap, wrap, bob, roll, yap."
+    },
+    {
+        "question_id": "d7c5777bb92ddc8fd999762619519f3e14db9bdd9ea1292ddba5242bb086d9d6",
+        "category": "language",
+        "ground_truth": "bother, handful, pain, pest, few, many, several, some, fool, lovers, magician, tower",
+        "turns": [
+            "You are given 12 words/phrases below. Find three groups of four items that share something in common. Here are a few examples of groups: bass, flounder, salmon, trout (all four are fish); ant, drill, island, opal (all four are two-word phrases that start with 'fire'); are, why, bee, queue (all four are homophones of letters); sea, sister, sin, wonder (all four are members of a septet). Categories will be more specific than e.g., '5-letter-words', 'names', or 'verbs'. There is exactly one solution. Think step-by-step, and then give your answer in **bold** as a list of the 12 items separated by commas, ordered by group (for example, **bass, founder, salmon, trout, ant, drill, island, opal, are, why, bee, queue**). If you don't know the answer, make your best guess. The items are: handful, bother, tower, few, fool, pain, some, magician, pest, several, lovers, many."
+        ],
+        "group": "writing",
+        "movie_name": "",
+        "release_date": "2024-05-06",
+        "task": "connections",
+        "livebench_release_date": "2024-06-24 00:00:00",
+        "livebench_removal_date": "",
+        "raw_id": 330,
+        "citation": "https://www.nytimes.com/games/connections, via https://word.tips/todays-nyt-connections-answers/",
+        "input": "You are given 12 words/phrases below. Find three groups of four items that share something in common. Here are a few examples of groups: bass, flounder, salmon, trout (all four are fish); ant, drill, island, opal (all four are two-word phrases that start with 'fire'); are, why, bee, queue (all four are homophones of letters); sea, sister, sin, wonder (all four are members of a septet). Categories will be more specific than e.g., '5-letter-words', 'names', or 'verbs'. There is exactly one solution. Think step-by-step, and then give your answer in **bold** as a list of the 12 items separated by commas, ordered by group (for example, **bass, founder, salmon, trout, ant, drill, island, opal, are, why, bee, queue**). If you don't know the answer, make your best guess. The items are: handful, bother, tower, few, fool, pain, some, magician, pest, several, lovers, many."
+    },
+    {
+        "question_id": "45287d91a053a405e08469bd5ae6e972d99a2cc1f3c3968851eb46df2dfd1269",
+        "category": "language",
+        "ground_truth": "benefit, fruit, return, reward, egg, everything, plain, poppy, frank, mum, vamp, were",
+        "turns": [
+            "You are given 12 words/phrases below. Find three groups of four items that share something in common. Here are a few examples of groups: bass, flounder, salmon, trout (all four are fish); ant, drill, island, opal (all four are two-word phrases that start with 'fire'); are, why, bee, queue (all four are homophones of letters); sea, sister, sin, wonder (all four are members of a septet). Categories will be more specific than e.g., '5-letter-words', 'names', or 'verbs'. There is exactly one solution. Think step-by-step, and then give your answer in **bold** as a list of the 12 items separated by commas, ordered by group (for example, **bass, founder, salmon, trout, ant, drill, island, opal, are, why, bee, queue**). If you don't know the answer, make your best guess. The items are: egg, were, vamp, everything, fruit, reward, mum, poppy, plain, return, frank, benefit."
+        ],
+        "group": "writing",
+        "movie_name": "",
+        "release_date": "2024-05-05",
+        "task": "connections",
+        "livebench_release_date": "2024-06-24 00:00:00",
+        "livebench_removal_date": "",
+        "raw_id": 329,
+        "citation": "https://www.nytimes.com/games/connections, via https://word.tips/todays-nyt-connections-answers/",
+        "input": "You are given 12 words/phrases below. Find three groups of four items that share something in common. Here are a few examples of groups: bass, flounder, salmon, trout (all four are fish); ant, drill, island, opal (all four are two-word phrases that start with 'fire'); are, why, bee, queue (all four are homophones of letters); sea, sister, sin, wonder (all four are members of a septet). Categories will be more specific than e.g., '5-letter-words', 'names', or 'verbs'. There is exactly one solution. Think step-by-step, and then give your answer in **bold** as a list of the 12 items separated by commas, ordered by group (for example, **bass, founder, salmon, trout, ant, drill, island, opal, are, why, bee, queue**). If you don't know the answer, make your best guess. The items are: egg, were, vamp, everything, fruit, reward, mum, poppy, plain, return, frank, benefit."
+    },
+    {
+        "question_id": "1a508fde5a79b3d2048fc8bc30164673e151c73e6b25db3a46a6b9982bea5094",
+        "category": "language",
+        "ground_truth": "fancy, love, relish, savor, cylinder, pin, spring, tumbler, carrot, hurts, jewel, om",
+        "turns": [
+            "You are given 12 words/phrases below. Find three groups of four items that share something in common. Here are a few examples of groups: bass, flounder, salmon, trout (all four are fish); ant, drill, island, opal (all four are two-word phrases that start with 'fire'); are, why, bee, queue (all four are homophones of letters); sea, sister, sin, wonder (all four are members of a septet). Categories will be more specific than e.g., '5-letter-words', 'names', or 'verbs'. There is exactly one solution. Think step-by-step, and then give your answer in **bold** as a list of the 12 items separated by commas, ordered by group (for example, **bass, founder, salmon, trout, ant, drill, island, opal, are, why, bee, queue**). If you don't know the answer, make your best guess. The items are: spring, carrot, om, tumbler, relish, fancy, hurts, cylinder, love, savor, jewel, pin."
+        ],
+        "group": "writing",
+        "movie_name": "",
+        "release_date": "2024-05-04",
+        "task": "connections",
+        "livebench_release_date": "2024-06-24 00:00:00",
+        "livebench_removal_date": "",
+        "raw_id": 328,
+        "citation": "https://www.nytimes.com/games/connections, via https://word.tips/todays-nyt-connections-answers/",
+        "input": "You are given 12 words/phrases below. Find three groups of four items that share something in common. Here are a few examples of groups: bass, flounder, salmon, trout (all four are fish); ant, drill, island, opal (all four are two-word phrases that start with 'fire'); are, why, bee, queue (all four are homophones of letters); sea, sister, sin, wonder (all four are members of a septet). Categories will be more specific than e.g., '5-letter-words', 'names', or 'verbs'. There is exactly one solution. Think step-by-step, and then give your answer in **bold** as a list of the 12 items separated by commas, ordered by group (for example, **bass, founder, salmon, trout, ant, drill, island, opal, are, why, bee, queue**). If you don't know the answer, make your best guess. The items are: spring, carrot, om, tumbler, relish, fancy, hurts, cylinder, love, savor, jewel, pin."
+    },
+    {
+        "question_id": "60168bc527b017c582309529cd150e36de3a839d260aa30d0c1002880d293fda",
+        "category": "language",
+        "ground_truth": "bar, club, disco, lounge, ditch, drop, lose, shed, bake, clearance, garage, sample",
+        "turns": [
+            "You are given 12 words/phrases below. Find three groups of four items that share something in common. Here are a few examples of groups: bass, flounder, salmon, trout (all four are fish); ant, drill, island, opal (all four are two-word phrases that start with 'fire'); are, why, bee, queue (all four are homophones of letters); sea, sister, sin, wonder (all four are members of a septet). Categories will be more specific than e.g., '5-letter-words', 'names', or 'verbs'. There is exactly one solution. Think step-by-step, and then give your answer in **bold** as a list of the 12 items separated by commas, ordered by group (for example, **bass, founder, salmon, trout, ant, drill, island, opal, are, why, bee, queue**). If you don't know the answer, make your best guess. The items are: disco, shed, ditch, lounge, garage, club, sample, bar, clearance, bake, drop, lose."
+        ],
+        "group": "writing",
+        "movie_name": "",
+        "release_date": "2024-05-03",
+        "task": "connections",
+        "livebench_release_date": "2024-06-24 00:00:00",
+        "livebench_removal_date": "",
+        "raw_id": 327,
+        "citation": "https://www.nytimes.com/games/connections, via https://word.tips/todays-nyt-connections-answers/",
+        "input": "You are given 12 words/phrases below. Find three groups of four items that share something in common. Here are a few examples of groups: bass, flounder, salmon, trout (all four are fish); ant, drill, island, opal (all four are two-word phrases that start with 'fire'); are, why, bee, queue (all four are homophones of letters); sea, sister, sin, wonder (all four are members of a septet). Categories will be more specific than e.g., '5-letter-words', 'names', or 'verbs'. There is exactly one solution. Think step-by-step, and then give your answer in **bold** as a list of the 12 items separated by commas, ordered by group (for example, **bass, founder, salmon, trout, ant, drill, island, opal, are, why, bee, queue**). If you don't know the answer, make your best guess. The items are: disco, shed, ditch, lounge, garage, club, sample, bar, clearance, bake, drop, lose."
+    },
+    {
+        "question_id": "43ae09ee650aede5c20c0eb7becec31d9918217c4123d5d933d54ec48d5a82c1",
+        "category": "language",
+        "ground_truth": "ace, crackerjack, expert, hotshot, chock, jack, tire, wrench, gladiator, her, joker, signs, popcorn, rapture, rocketry, soulmate",
+        "turns": [
+            "You are given 16 words/phrases below. Find four groups of four items that share something in common. Here are a few examples of groups: bass, flounder, salmon, trout (all four are fish); ant, drill, island, opal (all four are two-word phrases that start with 'fire'); are, why, bee, queue (all four are homophones of letters); sea, sister, sin, wonder (all four are members of a septet). Categories will be more specific than e.g., '5-letter-words', 'names', or 'verbs'. There is exactly one solution. Think step-by-step, and then give your answer in **bold** as a list of the 16 items separated by commas, ordered by group (for example, **bass, founder, salmon, trout, ant, drill, island, opal, are, why, bee, queue, sea, sister, sin, wonder**). If you don't know the answer, make your best guess. The items are: popcorn, crackerjack, expert, ace, soulmate, joker, chock, jack, gladiator, her, hotshot, wrench, rocketry, tire, rapture, signs."
+        ],
+        "group": "writing",
+        "movie_name": "",
+        "release_date": "2024-05-02",
+        "task": "connections",
+        "livebench_release_date": "2024-06-24 00:00:00",
+        "livebench_removal_date": "",
+        "raw_id": 326,
+        "citation": "https://www.nytimes.com/games/connections, via https://word.tips/todays-nyt-connections-answers/",
+        "input": "You are given 16 words/phrases below. Find four groups of four items that share something in common. Here are a few examples of groups: bass, flounder, salmon, trout (all four are fish); ant, drill, island, opal (all four are two-word phrases that start with 'fire'); are, why, bee, queue (all four are homophones of letters); sea, sister, sin, wonder (all four are members of a septet). Categories will be more specific than e.g., '5-letter-words', 'names', or 'verbs'. There is exactly one solution. Think step-by-step, and then give your answer in **bold** as a list of the 16 items separated by commas, ordered by group (for example, **bass, founder, salmon, trout, ant, drill, island, opal, are, why, bee, queue, sea, sister, sin, wonder**). If you don't know the answer, make your best guess. The items are: popcorn, crackerjack, expert, ace, soulmate, joker, chock, jack, gladiator, her, hotshot, wrench, rocketry, tire, rapture, signs."
+    },
+    {
+        "question_id": "8ad43b59dfc21e56785466dcd79986b4415252778aeb376e62aa520ad6f159bf",
+        "category": "language",
+        "ground_truth": "button, fly, pocket, rivet, line, plane, point, solid, file, history, view, window, animal, door, kink, supreme",
+        "turns": [
+            "You are given 16 words/phrases below. Find four groups of four items that share something in common. Here are a few examples of groups: bass, flounder, salmon, trout (all four are fish); ant, drill, island, opal (all four are two-word phrases that start with 'fire'); are, why, bee, queue (all four are homophones of letters); sea, sister, sin, wonder (all four are members of a septet). Categories will be more specific than e.g., '5-letter-words', 'names', or 'verbs'. There is exactly one solution. Think step-by-step, and then give your answer in **bold** as a list of the 16 items separated by commas, ordered by group (for example, **bass, founder, salmon, trout, ant, drill, island, opal, are, why, bee, queue, sea, sister, sin, wonder**). If you don't know the answer, make your best guess. The items are: animal, line, window, plane, view, fly, supreme, pocket, history, solid, rivet, point, kink, button, file, door."
+        ],
+        "group": "writing",
+        "movie_name": "",
+        "release_date": "2024-05-01",
+        "task": "connections",
+        "livebench_release_date": "2024-06-24 00:00:00",
+        "livebench_removal_date": "",
+        "raw_id": 325,
+        "citation": "https://www.nytimes.com/games/connections, via https://word.tips/todays-nyt-connections-answers/",
+        "input": "You are given 16 words/phrases below. Find four groups of four items that share something in common. Here are a few examples of groups: bass, flounder, salmon, trout (all four are fish); ant, drill, island, opal (all four are two-word phrases that start with 'fire'); are, why, bee, queue (all four are homophones of letters); sea, sister, sin, wonder (all four are members of a septet). Categories will be more specific than e.g., '5-letter-words', 'names', or 'verbs'. There is exactly one solution. Think step-by-step, and then give your answer in **bold** as a list of the 16 items separated by commas, ordered by group (for example, **bass, founder, salmon, trout, ant, drill, island, opal, are, why, bee, queue, sea, sister, sin, wonder**). If you don't know the answer, make your best guess. The items are: animal, line, window, plane, view, fly, supreme, pocket, history, solid, rivet, point, kink, button, file, door."
+    },
+    {
+        "question_id": "43e21692e33ccfcf447a4ced9dc5862db719e8d57ff35d68417696b4b95961d9",
+        "category": "language",
+        "ground_truth": "aioli, barbecue, marinara, ranch, examine, grill, probe, question, bill, invoice, receipt, statement, ancestry, broth, cattle, merchandise",
+        "turns": [
+            "You are given 16 words/phrases below. Find four groups of four items that share something in common. Here are a few examples of groups: bass, flounder, salmon, trout (all four are fish); ant, drill, island, opal (all four are two-word phrases that start with 'fire'); are, why, bee, queue (all four are homophones of letters); sea, sister, sin, wonder (all four are members of a septet). Categories will be more specific than e.g., '5-letter-words', 'names', or 'verbs'. There is exactly one solution. Think step-by-step, and then give your answer in **bold** as a list of the 16 items separated by commas, ordered by group (for example, **bass, founder, salmon, trout, ant, drill, island, opal, are, why, bee, queue, sea, sister, sin, wonder**). If you don't know the answer, make your best guess. The items are: statement, aioli, ancestry, bill, merchandise, ranch, marinara, examine, question, barbecue, broth, cattle, receipt, probe, invoice, grill."
+        ],
+        "group": "writing",
+        "movie_name": "",
+        "release_date": "2024-04-30",
+        "task": "connections",
+        "livebench_release_date": "2024-06-24 00:00:00",
+        "livebench_removal_date": "",
+        "raw_id": 324,
+        "citation": "https://www.nytimes.com/games/connections, via https://word.tips/todays-nyt-connections-answers/",
+        "input": "You are given 16 words/phrases below. Find four groups of four items that share something in common. Here are a few examples of groups: bass, flounder, salmon, trout (all four are fish); ant, drill, island, opal (all four are two-word phrases that start with 'fire'); are, why, bee, queue (all four are homophones of letters); sea, sister, sin, wonder (all four are members of a septet). Categories will be more specific than e.g., '5-letter-words', 'names', or 'verbs'. There is exactly one solution. Think step-by-step, and then give your answer in **bold** as a list of the 16 items separated by commas, ordered by group (for example, **bass, founder, salmon, trout, ant, drill, island, opal, are, why, bee, queue, sea, sister, sin, wonder**). If you don't know the answer, make your best guess. The items are: statement, aioli, ancestry, bill, merchandise, ranch, marinara, examine, question, barbecue, broth, cattle, receipt, probe, invoice, grill."
+    },
+    {
+        "question_id": "4dd31a1d3c6f0c392de0676569fd783a467e837b86938892e55afbddf0f62e6d",
+        "category": "language",
+        "ground_truth": "bridge, crunch, dip, squat, bounty, cowboy, duel, saloon, carter, gore, king, tutu, busy, honey, queen, spelling",
+        "turns": [
+            "You are given 16 words/phrases below. Find four groups of four items that share something in common. Here are a few examples of groups: bass, flounder, salmon, trout (all four are fish); ant, drill, island, opal (all four are two-word phrases that start with 'fire'); are, why, bee, queue (all four are homophones of letters); sea, sister, sin, wonder (all four are members of a septet). Categories will be more specific than e.g., '5-letter-words', 'names', or 'verbs'. There is exactly one solution. Think step-by-step, and then give your answer in **bold** as a list of the 16 items separated by commas, ordered by group (for example, **bass, founder, salmon, trout, ant, drill, island, opal, are, why, bee, queue, sea, sister, sin, wonder**). If you don't know the answer, make your best guess. The items are: bounty, bridge, dip, tutu, spelling, gore, crunch, squat, busy, saloon, queen, duel, king, honey, carter, cowboy."
+        ],
+        "group": "writing",
+        "movie_name": "",
+        "release_date": "2024-04-29",
+        "task": "connections",
+        "livebench_release_date": "2024-06-24 00:00:00",
+        "livebench_removal_date": "",
+        "raw_id": 323,
+        "citation": "https://www.nytimes.com/games/connections, via https://word.tips/todays-nyt-connections-answers/",
+        "input": "You are given 16 words/phrases below. Find four groups of four items that share something in common. Here are a few examples of groups: bass, flounder, salmon, trout (all four are fish); ant, drill, island, opal (all four are two-word phrases that start with 'fire'); are, why, bee, queue (all four are homophones of letters); sea, sister, sin, wonder (all four are members of a septet). Categories will be more specific than e.g., '5-letter-words', 'names', or 'verbs'. There is exactly one solution. Think step-by-step, and then give your answer in **bold** as a list of the 16 items separated by commas, ordered by group (for example, **bass, founder, salmon, trout, ant, drill, island, opal, are, why, bee, queue, sea, sister, sin, wonder**). If you don't know the answer, make your best guess. The items are: bounty, bridge, dip, tutu, spelling, gore, crunch, squat, busy, saloon, queen, duel, king, honey, carter, cowboy."
+    },
+    {
+        "question_id": "fb15abda711c545569624c5e4c9c2cc86b49d53bcd2499aa6b3be35efbc867a8",
+        "category": "language",
+        "ground_truth": "deep, extreme, fierce, intense, bump, butt, knock, ram, fuzz, noise, snow, static, bloody, hail, proud, virgin",
+        "turns": [
+            "You are given 16 words/phrases below. Find four groups of four items that share something in common. Here are a few examples of groups: bass, flounder, salmon, trout (all four are fish); ant, drill, island, opal (all four are two-word phrases that start with 'fire'); are, why, bee, queue (all four are homophones of letters); sea, sister, sin, wonder (all four are members of a septet). Categories will be more specific than e.g., '5-letter-words', 'names', or 'verbs'. There is exactly one solution. Think step-by-step, and then give your answer in **bold** as a list of the 16 items separated by commas, ordered by group (for example, **bass, founder, salmon, trout, ant, drill, island, opal, are, why, bee, queue, sea, sister, sin, wonder**). If you don't know the answer, make your best guess. The items are: virgin, knock, deep, hail, snow, butt, fuzz, bloody, extreme, intense, noise, bump, static, ram, proud, fierce."
+        ],
+        "group": "writing",
+        "movie_name": "",
+        "release_date": "2024-04-28",
+        "task": "connections",
+        "livebench_release_date": "2024-06-24 00:00:00",
+        "livebench_removal_date": "",
+        "raw_id": 322,
+        "citation": "https://www.nytimes.com/games/connections, via https://word.tips/todays-nyt-connections-answers/",
+        "input": "You are given 16 words/phrases below. Find four groups of four items that share something in common. Here are a few examples of groups: bass, flounder, salmon, trout (all four are fish); ant, drill, island, opal (all four are two-word phrases that start with 'fire'); are, why, bee, queue (all four are homophones of letters); sea, sister, sin, wonder (all four are members of a septet). Categories will be more specific than e.g., '5-letter-words', 'names', or 'verbs'. There is exactly one solution. Think step-by-step, and then give your answer in **bold** as a list of the 16 items separated by commas, ordered by group (for example, **bass, founder, salmon, trout, ant, drill, island, opal, are, why, bee, queue, sea, sister, sin, wonder**). If you don't know the answer, make your best guess. The items are: virgin, knock, deep, hail, snow, butt, fuzz, bloody, extreme, intense, noise, bump, static, ram, proud, fierce."
+    },
+    {
+        "question_id": "3ac10e531f68160bbb3e42c3732597b0638770ad4e90a082a30b9e22150b525a",
+        "category": "language",
+        "ground_truth": "accept, believe, buy, swallow, outage, short, spike, surge, abstract, brief, digest, outline, curt, hairy, kneel, wane",
+        "turns": [
+            "You are given 16 words/phrases below. Find four groups of four items that share something in common. Here are a few examples of groups: bass, flounder, salmon, trout (all four are fish); ant, drill, island, opal (all four are two-word phrases that start with 'fire'); are, why, bee, queue (all four are homophones of letters); sea, sister, sin, wonder (all four are members of a septet). Categories will be more specific than e.g., '5-letter-words', 'names', or 'verbs'. There is exactly one solution. Think step-by-step, and then give your answer in **bold** as a list of the 16 items separated by commas, ordered by group (for example, **bass, founder, salmon, trout, ant, drill, island, opal, are, why, bee, queue, sea, sister, sin, wonder**). If you don't know the answer, make your best guess. The items are: short, curt, hairy, kneel, buy, swallow, surge, outage, abstract, accept, digest, brief, believe, outline, spike, wane."
+        ],
+        "group": "writing",
+        "movie_name": "",
+        "release_date": "2024-04-27",
+        "task": "connections",
+        "livebench_release_date": "2024-06-24 00:00:00",
+        "livebench_removal_date": "",
+        "raw_id": 321,
+        "citation": "https://www.nytimes.com/games/connections, via https://word.tips/todays-nyt-connections-answers/",
+        "input": "You are given 16 words/phrases below. Find four groups of four items that share something in common. Here are a few examples of groups: bass, flounder, salmon, trout (all four are fish); ant, drill, island, opal (all four are two-word phrases that start with 'fire'); are, why, bee, queue (all four are homophones of letters); sea, sister, sin, wonder (all four are members of a septet). Categories will be more specific than e.g., '5-letter-words', 'names', or 'verbs'. There is exactly one solution. Think step-by-step, and then give your answer in **bold** as a list of the 16 items separated by commas, ordered by group (for example, **bass, founder, salmon, trout, ant, drill, island, opal, are, why, bee, queue, sea, sister, sin, wonder**). If you don't know the answer, make your best guess. The items are: short, curt, hairy, kneel, buy, swallow, surge, outage, abstract, accept, digest, brief, believe, outline, spike, wane."
+    },
+    {
+        "question_id": "fb59c19796513bece8c3f7a416c829b22536494bd8e5164023897a00f6f73cc6",
+        "category": "language",
+        "ground_truth": "elegance, grace, style, taste, bake, bask, sun, tan, affect, impact, move, touch, sen, sight, sine, sour",
+        "turns": [
+            "You are given 16 words/phrases below. Find four groups of four items that share something in common. Here are a few examples of groups: bass, flounder, salmon, trout (all four are fish); ant, drill, island, opal (all four are two-word phrases that start with 'fire'); are, why, bee, queue (all four are homophones of letters); sea, sister, sin, wonder (all four are members of a septet). Categories will be more specific than e.g., '5-letter-words', 'names', or 'verbs'. There is exactly one solution. Think step-by-step, and then give your answer in **bold** as a list of the 16 items separated by commas, ordered by group (for example, **bass, founder, salmon, trout, ant, drill, island, opal, are, why, bee, queue, sea, sister, sin, wonder**). If you don't know the answer, make your best guess. The items are: style, move, affect, sen, grace, sour, sight, tan, impact, bask, bake, taste, touch, elegance, sine, sun."
+        ],
+        "group": "writing",
+        "movie_name": "",
+        "release_date": "2024-04-26",
+        "task": "connections",
+        "livebench_release_date": "2024-06-24 00:00:00",
+        "livebench_removal_date": "",
+        "raw_id": 320,
+        "citation": "https://www.nytimes.com/games/connections, via https://word.tips/todays-nyt-connections-answers/",
+        "input": "You are given 16 words/phrases below. Find four groups of four items that share something in common. Here are a few examples of groups: bass, flounder, salmon, trout (all four are fish); ant, drill, island, opal (all four are two-word phrases that start with 'fire'); are, why, bee, queue (all four are homophones of letters); sea, sister, sin, wonder (all four are members of a septet). Categories will be more specific than e.g., '5-letter-words', 'names', or 'verbs'. There is exactly one solution. Think step-by-step, and then give your answer in **bold** as a list of the 16 items separated by commas, ordered by group (for example, **bass, founder, salmon, trout, ant, drill, island, opal, are, why, bee, queue, sea, sister, sin, wonder**). If you don't know the answer, make your best guess. The items are: style, move, affect, sen, grace, sour, sight, tan, impact, bask, bake, taste, touch, elegance, sine, sun."
+    },
+    {
+        "question_id": "730d9c603af3720656d465f7ab08e7a1a579072bf796287d5834af3add8863c9",
+        "category": "language",
+        "ground_truth": "beaker, dropper, goggles, microscope, center, heart, hub, nucleus, cell, formula, sheet, sort, body, love, romance, sign",
+        "turns": [
+            "You are given 16 words/phrases below. Find four groups of four items that share something in common. Here are a few examples of groups: bass, flounder, salmon, trout (all four are fish); ant, drill, island, opal (all four are two-word phrases that start with 'fire'); are, why, bee, queue (all four are homophones of letters); sea, sister, sin, wonder (all four are members of a septet). Categories will be more specific than e.g., '5-letter-words', 'names', or 'verbs'. There is exactly one solution. Think step-by-step, and then give your answer in **bold** as a list of the 16 items separated by commas, ordered by group (for example, **bass, founder, salmon, trout, ant, drill, island, opal, are, why, bee, queue, sea, sister, sin, wonder**). If you don't know the answer, make your best guess. The items are: microscope, body, romance, dropper, heart, cell, sign, love, goggles, sort, hub, beaker, nucleus, center, formula, sheet."
+        ],
+        "group": "writing",
+        "movie_name": "",
+        "release_date": "2024-04-25",
+        "task": "connections",
+        "livebench_release_date": "2024-06-24 00:00:00",
+        "livebench_removal_date": "",
+        "raw_id": 319,
+        "citation": "https://www.nytimes.com/games/connections, via https://word.tips/todays-nyt-connections-answers/",
+        "input": "You are given 16 words/phrases below. Find four groups of four items that share something in common. Here are a few examples of groups: bass, flounder, salmon, trout (all four are fish); ant, drill, island, opal (all four are two-word phrases that start with 'fire'); are, why, bee, queue (all four are homophones of letters); sea, sister, sin, wonder (all four are members of a septet). Categories will be more specific than e.g., '5-letter-words', 'names', or 'verbs'. There is exactly one solution. Think step-by-step, and then give your answer in **bold** as a list of the 16 items separated by commas, ordered by group (for example, **bass, founder, salmon, trout, ant, drill, island, opal, are, why, bee, queue, sea, sister, sin, wonder**). If you don't know the answer, make your best guess. The items are: microscope, body, romance, dropper, heart, cell, sign, love, goggles, sort, hub, beaker, nucleus, center, formula, sheet."
+    },
+    {
+        "question_id": "0c9674c47e4adf7a3736192824147ed07bf3bb51af78551dad57dcc998e077f9",
+        "category": "language",
+        "ground_truth": "cilantro, lime, onion, salsa, kilo, mega, micro, pico, mini, pencil, poodle, wrap, capitol, faith, foot, mole",
+        "turns": [
+            "You are given 16 words/phrases below. Find four groups of four items that share something in common. Here are a few examples of groups: bass, flounder, salmon, trout (all four are fish); ant, drill, island, opal (all four are two-word phrases that start with 'fire'); are, why, bee, queue (all four are homophones of letters); sea, sister, sin, wonder (all four are members of a septet). Categories will be more specific than e.g., '5-letter-words', 'names', or 'verbs'. There is exactly one solution. Think step-by-step, and then give your answer in **bold** as a list of the 16 items separated by commas, ordered by group (for example, **bass, founder, salmon, trout, ant, drill, island, opal, are, why, bee, queue, sea, sister, sin, wonder**). If you don't know the answer, make your best guess. The items are: onion, micro, kilo, pico, mini, wrap, cilantro, faith, mole, pencil, lime, salsa, poodle, foot, capitol, mega."
+        ],
+        "group": "writing",
+        "movie_name": "",
+        "release_date": "2024-04-24",
+        "task": "connections",
+        "livebench_release_date": "2024-06-24 00:00:00",
+        "livebench_removal_date": "",
+        "raw_id": 318,
+        "citation": "https://www.nytimes.com/games/connections, via https://word.tips/todays-nyt-connections-answers/",
+        "input": "You are given 16 words/phrases below. Find four groups of four items that share something in common. Here are a few examples of groups: bass, flounder, salmon, trout (all four are fish); ant, drill, island, opal (all four are two-word phrases that start with 'fire'); are, why, bee, queue (all four are homophones of letters); sea, sister, sin, wonder (all four are members of a septet). Categories will be more specific than e.g., '5-letter-words', 'names', or 'verbs'. There is exactly one solution. Think step-by-step, and then give your answer in **bold** as a list of the 16 items separated by commas, ordered by group (for example, **bass, founder, salmon, trout, ant, drill, island, opal, are, why, bee, queue, sea, sister, sin, wonder**). If you don't know the answer, make your best guess. The items are: onion, micro, kilo, pico, mini, wrap, cilantro, faith, mole, pencil, lime, salsa, poodle, foot, capitol, mega."
+    },
+    {
+        "question_id": "9c1d5afa2518fa47d0beaadb5f527097a1028a385cc743f5d8cf52af611a035f",
+        "category": "language",
+        "ground_truth": "boot, bounce, eject, toss, earth, ground, land, soil, baltic, black, philippine, red, big, philadelphia, splash, sully",
+        "turns": [
+            "You are given 16 words/phrases below. Find four groups of four items that share something in common. Here are a few examples of groups: bass, flounder, salmon, trout (all four are fish); ant, drill, island, opal (all four are two-word phrases that start with 'fire'); are, why, bee, queue (all four are homophones of letters); sea, sister, sin, wonder (all four are members of a septet). Categories will be more specific than e.g., '5-letter-words', 'names', or 'verbs'. There is exactly one solution. Think step-by-step, and then give your answer in **bold** as a list of the 16 items separated by commas, ordered by group (for example, **bass, founder, salmon, trout, ant, drill, island, opal, are, why, bee, queue, sea, sister, sin, wonder**). If you don't know the answer, make your best guess. The items are: soil, bounce, sully, toss, land, red, philadelphia, boot, eject, earth, black, big, splash, ground, philippine, baltic."
+        ],
+        "group": "writing",
+        "movie_name": "",
+        "release_date": "2024-04-23",
+        "task": "connections",
+        "livebench_release_date": "2024-06-24 00:00:00",
+        "livebench_removal_date": "",
+        "raw_id": 317,
+        "citation": "https://www.nytimes.com/games/connections, via https://word.tips/todays-nyt-connections-answers/",
+        "input": "You are given 16 words/phrases below. Find four groups of four items that share something in common. Here are a few examples of groups: bass, flounder, salmon, trout (all four are fish); ant, drill, island, opal (all four are two-word phrases that start with 'fire'); are, why, bee, queue (all four are homophones of letters); sea, sister, sin, wonder (all four are members of a septet). Categories will be more specific than e.g., '5-letter-words', 'names', or 'verbs'. There is exactly one solution. Think step-by-step, and then give your answer in **bold** as a list of the 16 items separated by commas, ordered by group (for example, **bass, founder, salmon, trout, ant, drill, island, opal, are, why, bee, queue, sea, sister, sin, wonder**). If you don't know the answer, make your best guess. The items are: soil, bounce, sully, toss, land, red, philadelphia, boot, eject, earth, black, big, splash, ground, philippine, baltic."
+    },
+    {
+        "question_id": "8d5f7c0ee7f6c7b36194e1beb6db961435c4342d1ab04c6c62ebe092e3be7f45",
+        "category": "language",
+        "ground_truth": "bud, chum, mate, pal, cold, dank, dark, musty, fuzz, scruff, shadow, whiskers, fund, kitty, pool, pot",
+        "turns": [
+            "You are given 16 words/phrases below. Find four groups of four items that share something in common. Here are a few examples of groups: bass, flounder, salmon, trout (all four are fish); ant, drill, island, opal (all four are two-word phrases that start with 'fire'); are, why, bee, queue (all four are homophones of letters); sea, sister, sin, wonder (all four are members of a septet). Categories will be more specific than e.g., '5-letter-words', 'names', or 'verbs'. There is exactly one solution. Think step-by-step, and then give your answer in **bold** as a list of the 16 items separated by commas, ordered by group (for example, **bass, founder, salmon, trout, ant, drill, island, opal, are, why, bee, queue, sea, sister, sin, wonder**). If you don't know the answer, make your best guess. The items are: pool, chum, pal, whiskers, fund, bud, scruff, dank, dark, mate, musty, cold, pot, kitty, fuzz, shadow."
+        ],
+        "group": "writing",
+        "movie_name": "",
+        "release_date": "2024-04-22",
+        "task": "connections",
+        "livebench_release_date": "2024-06-24 00:00:00",
+        "livebench_removal_date": "",
+        "raw_id": 316,
+        "citation": "https://www.nytimes.com/games/connections, via https://word.tips/todays-nyt-connections-answers/",
+        "input": "You are given 16 words/phrases below. Find four groups of four items that share something in common. Here are a few examples of groups: bass, flounder, salmon, trout (all four are fish); ant, drill, island, opal (all four are two-word phrases that start with 'fire'); are, why, bee, queue (all four are homophones of letters); sea, sister, sin, wonder (all four are members of a septet). Categories will be more specific than e.g., '5-letter-words', 'names', or 'verbs'. There is exactly one solution. Think step-by-step, and then give your answer in **bold** as a list of the 16 items separated by commas, ordered by group (for example, **bass, founder, salmon, trout, ant, drill, island, opal, are, why, bee, queue, sea, sister, sin, wonder**). If you don't know the answer, make your best guess. The items are: pool, chum, pal, whiskers, fund, bud, scruff, dank, dark, mate, musty, cold, pot, kitty, fuzz, shadow."
+    },
+    {
+        "question_id": "2030d5de18fb7837c7cddadbb6aa46eb9990372b0e49e4fe7a6218db263e5d50",
+        "category": "language",
+        "ground_truth": "example, ideal, model, symbol, car, conductor, station, track, cymbal, scimitar, simmer, symphony, drum, mark, wax, wig",
+        "turns": [
+            "You are given 16 words/phrases below. Find four groups of four items that share something in common. Here are a few examples of groups: bass, flounder, salmon, trout (all four are fish); ant, drill, island, opal (all four are two-word phrases that start with 'fire'); are, why, bee, queue (all four are homophones of letters); sea, sister, sin, wonder (all four are members of a septet). Categories will be more specific than e.g., '5-letter-words', 'names', or 'verbs'. There is exactly one solution. Think step-by-step, and then give your answer in **bold** as a list of the 16 items separated by commas, ordered by group (for example, **bass, founder, salmon, trout, ant, drill, island, opal, are, why, bee, queue, sea, sister, sin, wonder**). If you don't know the answer, make your best guess. The items are: station, wax, simmer, track, wig, symbol, drum, conductor, mark, symphony, scimitar, example, ideal, car, model, cymbal."
+        ],
+        "group": "writing",
+        "movie_name": "",
+        "release_date": "2024-04-21",
+        "task": "connections",
+        "livebench_release_date": "2024-06-24 00:00:00",
+        "livebench_removal_date": "",
+        "raw_id": 315,
+        "citation": "https://www.nytimes.com/games/connections, via https://word.tips/todays-nyt-connections-answers/",
+        "input": "You are given 16 words/phrases below. Find four groups of four items that share something in common. Here are a few examples of groups: bass, flounder, salmon, trout (all four are fish); ant, drill, island, opal (all four are two-word phrases that start with 'fire'); are, why, bee, queue (all four are homophones of letters); sea, sister, sin, wonder (all four are members of a septet). Categories will be more specific than e.g., '5-letter-words', 'names', or 'verbs'. There is exactly one solution. Think step-by-step, and then give your answer in **bold** as a list of the 16 items separated by commas, ordered by group (for example, **bass, founder, salmon, trout, ant, drill, island, opal, are, why, bee, queue, sea, sister, sin, wonder**). If you don't know the answer, make your best guess. The items are: station, wax, simmer, track, wig, symbol, drum, conductor, mark, symphony, scimitar, example, ideal, car, model, cymbal."
+    },
+    {
+        "question_id": "65dff0b53e82dee459912cdd6390bcc91128745c4db1fe5988d01fb7e3daf690",
+        "category": "language",
+        "ground_truth": "bunk, crock, hogwash, horsefeathers, baton, hammer, hurdle, pole, goatee, horns, pitchfork, tail, bend, bowline, hitch, sheepshank",
+        "turns": [
+            "You are given 16 words/phrases below. Find four groups of four items that share something in common. Here are a few examples of groups: bass, flounder, salmon, trout (all four are fish); ant, drill, island, opal (all four are two-word phrases that start with 'fire'); are, why, bee, queue (all four are homophones of letters); sea, sister, sin, wonder (all four are members of a septet). Categories will be more specific than e.g., '5-letter-words', 'names', or 'verbs'. There is exactly one solution. Think step-by-step, and then give your answer in **bold** as a list of the 16 items separated by commas, ordered by group (for example, **bass, founder, salmon, trout, ant, drill, island, opal, are, why, bee, queue, sea, sister, sin, wonder**). If you don't know the answer, make your best guess. The items are: bowline, sheepshank, bunk, pitchfork, crock, hogwash, pole, hitch, hammer, baton, goatee, bend, tail, hurdle, horns, horsefeathers."
+        ],
+        "group": "writing",
+        "movie_name": "",
+        "release_date": "2024-04-20",
+        "task": "connections",
+        "livebench_release_date": "2024-06-24 00:00:00",
+        "livebench_removal_date": "",
+        "raw_id": 314,
+        "citation": "https://www.nytimes.com/games/connections, via https://word.tips/todays-nyt-connections-answers/",
+        "input": "You are given 16 words/phrases below. Find four groups of four items that share something in common. Here are a few examples of groups: bass, flounder, salmon, trout (all four are fish); ant, drill, island, opal (all four are two-word phrases that start with 'fire'); are, why, bee, queue (all four are homophones of letters); sea, sister, sin, wonder (all four are members of a septet). Categories will be more specific than e.g., '5-letter-words', 'names', or 'verbs'. There is exactly one solution. Think step-by-step, and then give your answer in **bold** as a list of the 16 items separated by commas, ordered by group (for example, **bass, founder, salmon, trout, ant, drill, island, opal, are, why, bee, queue, sea, sister, sin, wonder**). If you don't know the answer, make your best guess. The items are: bowline, sheepshank, bunk, pitchfork, crock, hogwash, pole, hitch, hammer, baton, goatee, bend, tail, hurdle, horns, horsefeathers."
+    },
+    {
+        "question_id": "fd9ab7e393834f86a531e84bc1158ffafae2300b6321e760a424db5d576930e8",
+        "category": "language",
+        "ground_truth": "adhere, glue, paste, stick, copy, text, words, writing, carat, clarity, color, cut, list, ok, plus, rod",
+        "turns": [
+            "You are given 16 words/phrases below. Find four groups of four items that share something in common. Here are a few examples of groups: bass, flounder, salmon, trout (all four are fish); ant, drill, island, opal (all four are two-word phrases that start with 'fire'); are, why, bee, queue (all four are homophones of letters); sea, sister, sin, wonder (all four are members of a septet). Categories will be more specific than e.g., '5-letter-words', 'names', or 'verbs'. There is exactly one solution. Think step-by-step, and then give your answer in **bold** as a list of the 16 items separated by commas, ordered by group (for example, **bass, founder, salmon, trout, ant, drill, island, opal, are, why, bee, queue, sea, sister, sin, wonder**). If you don't know the answer, make your best guess. The items are: carat, text, adhere, paste, glue, rod, copy, plus, stick, words, list, writing, clarity, ok, color, cut."
+        ],
+        "group": "writing",
+        "movie_name": "",
+        "release_date": "2024-04-19",
+        "task": "connections",
+        "livebench_release_date": "2024-06-24 00:00:00",
+        "livebench_removal_date": "",
+        "raw_id": 313,
+        "citation": "https://www.nytimes.com/games/connections, via https://word.tips/todays-nyt-connections-answers/",
+        "input": "You are given 16 words/phrases below. Find four groups of four items that share something in common. Here are a few examples of groups: bass, flounder, salmon, trout (all four are fish); ant, drill, island, opal (all four are two-word phrases that start with 'fire'); are, why, bee, queue (all four are homophones of letters); sea, sister, sin, wonder (all four are members of a septet). Categories will be more specific than e.g., '5-letter-words', 'names', or 'verbs'. There is exactly one solution. Think step-by-step, and then give your answer in **bold** as a list of the 16 items separated by commas, ordered by group (for example, **bass, founder, salmon, trout, ant, drill, island, opal, are, why, bee, queue, sea, sister, sin, wonder**). If you don't know the answer, make your best guess. The items are: carat, text, adhere, paste, glue, rod, copy, plus, stick, words, list, writing, clarity, ok, color, cut."
+    },
+    {
+        "question_id": "b583c99040b102226af36b83e3ea0b10d57b6b415e8bcb30bb81e5b5803f9580",
+        "category": "language",
+        "ground_truth": "curb, grate, gutter, manhole, aim, intend, mean, plan, cal, gal, in, oz, fleece, girls, parachute, rule",
+        "turns": [
+            "You are given 16 words/phrases below. Find four groups of four items that share something in common. Here are a few examples of groups: bass, flounder, salmon, trout (all four are fish); ant, drill, island, opal (all four are two-word phrases that start with 'fire'); are, why, bee, queue (all four are homophones of letters); sea, sister, sin, wonder (all four are members of a septet). Categories will be more specific than e.g., '5-letter-words', 'names', or 'verbs'. There is exactly one solution. Think step-by-step, and then give your answer in **bold** as a list of the 16 items separated by commas, ordered by group (for example, **bass, founder, salmon, trout, ant, drill, island, opal, are, why, bee, queue, sea, sister, sin, wonder**). If you don't know the answer, make your best guess. The items are: fleece, girls, manhole, gal, rule, parachute, intend, plan, grate, aim, gutter, cal, curb, oz, in, mean."
+        ],
+        "group": "writing",
+        "movie_name": "",
+        "release_date": "2024-04-18",
+        "task": "connections",
+        "livebench_release_date": "2024-06-24 00:00:00",
+        "livebench_removal_date": "",
+        "raw_id": 312,
+        "citation": "https://www.nytimes.com/games/connections, via https://word.tips/todays-nyt-connections-answers/",
+        "input": "You are given 16 words/phrases below. Find four groups of four items that share something in common. Here are a few examples of groups: bass, flounder, salmon, trout (all four are fish); ant, drill, island, opal (all four are two-word phrases that start with 'fire'); are, why, bee, queue (all four are homophones of letters); sea, sister, sin, wonder (all four are members of a septet). Categories will be more specific than e.g., '5-letter-words', 'names', or 'verbs'. There is exactly one solution. Think step-by-step, and then give your answer in **bold** as a list of the 16 items separated by commas, ordered by group (for example, **bass, founder, salmon, trout, ant, drill, island, opal, are, why, bee, queue, sea, sister, sin, wonder**). If you don't know the answer, make your best guess. The items are: fleece, girls, manhole, gal, rule, parachute, intend, plan, grate, aim, gutter, cal, curb, oz, in, mean."
+    },
+    {
+        "question_id": "a5b689fc0edab2be706ae1386f9e145c8509c6cebba162787f96af6390f08c78",
+        "category": "language",
+        "ground_truth": "column, pillar, pole, post, follow, mind, observe, regard, interest, percentage, share, stake, dirt, information, intelligence, secrets",
+        "turns": [
+            "You are given 16 words/phrases below. Find four groups of four items that share something in common. Here are a few examples of groups: bass, flounder, salmon, trout (all four are fish); ant, drill, island, opal (all four are two-word phrases that start with 'fire'); are, why, bee, queue (all four are homophones of letters); sea, sister, sin, wonder (all four are members of a septet). Categories will be more specific than e.g., '5-letter-words', 'names', or 'verbs'. There is exactly one solution. Think step-by-step, and then give your answer in **bold** as a list of the 16 items separated by commas, ordered by group (for example, **bass, founder, salmon, trout, ant, drill, island, opal, are, why, bee, queue, sea, sister, sin, wonder**). If you don't know the answer, make your best guess. The items are: information, follow, pillar, interest, stake, pole, secrets, post, observe, dirt, share, regard, percentage, column, mind, intelligence."
+        ],
+        "group": "writing",
+        "movie_name": "",
+        "release_date": "2024-04-17",
+        "task": "connections",
+        "livebench_release_date": "2024-06-24 00:00:00",
+        "livebench_removal_date": "",
+        "raw_id": 311,
+        "citation": "https://www.nytimes.com/games/connections, via https://word.tips/todays-nyt-connections-answers/",
+        "input": "You are given 16 words/phrases below. Find four groups of four items that share something in common. Here are a few examples of groups: bass, flounder, salmon, trout (all four are fish); ant, drill, island, opal (all four are two-word phrases that start with 'fire'); are, why, bee, queue (all four are homophones of letters); sea, sister, sin, wonder (all four are members of a septet). Categories will be more specific than e.g., '5-letter-words', 'names', or 'verbs'. There is exactly one solution. Think step-by-step, and then give your answer in **bold** as a list of the 16 items separated by commas, ordered by group (for example, **bass, founder, salmon, trout, ant, drill, island, opal, are, why, bee, queue, sea, sister, sin, wonder**). If you don't know the answer, make your best guess. The items are: information, follow, pillar, interest, stake, pole, secrets, post, observe, dirt, share, regard, percentage, column, mind, intelligence."
+    },
+    {
+        "question_id": "59a52080a1f6e41d41a63805f5e6736e5ee683c7284b87ca80f714a566eb109e",
+        "category": "language",
+        "ground_truth": "floor, rock, shock, surprise, article, feature, report, story, even, flat, flush, level, balcony, box, orchestra, stage",
+        "turns": [
+            "You are given 16 words/phrases below. Find four groups of four items that share something in common. Here are a few examples of groups: bass, flounder, salmon, trout (all four are fish); ant, drill, island, opal (all four are two-word phrases that start with 'fire'); are, why, bee, queue (all four are homophones of letters); sea, sister, sin, wonder (all four are members of a septet). Categories will be more specific than e.g., '5-letter-words', 'names', or 'verbs'. There is exactly one solution. Think step-by-step, and then give your answer in **bold** as a list of the 16 items separated by commas, ordered by group (for example, **bass, founder, salmon, trout, ant, drill, island, opal, are, why, bee, queue, sea, sister, sin, wonder**). If you don't know the answer, make your best guess. The items are: flush, stage, report, orchestra, box, level, story, article, floor, feature, balcony, surprise, flat, shock, rock, even."
+        ],
+        "group": "writing",
+        "movie_name": "",
+        "release_date": "2024-04-16",
+        "task": "connections",
+        "livebench_release_date": "2024-06-24 00:00:00",
+        "livebench_removal_date": "",
+        "raw_id": 310,
+        "citation": "https://www.nytimes.com/games/connections, via https://word.tips/todays-nyt-connections-answers/",
+        "input": "You are given 16 words/phrases below. Find four groups of four items that share something in common. Here are a few examples of groups: bass, flounder, salmon, trout (all four are fish); ant, drill, island, opal (all four are two-word phrases that start with 'fire'); are, why, bee, queue (all four are homophones of letters); sea, sister, sin, wonder (all four are members of a septet). Categories will be more specific than e.g., '5-letter-words', 'names', or 'verbs'. There is exactly one solution. Think step-by-step, and then give your answer in **bold** as a list of the 16 items separated by commas, ordered by group (for example, **bass, founder, salmon, trout, ant, drill, island, opal, are, why, bee, queue, sea, sister, sin, wonder**). If you don't know the answer, make your best guess. The items are: flush, stage, report, orchestra, box, level, story, article, floor, feature, balcony, surprise, flat, shock, rock, even."
+    },
+    {
+        "question_id": "da380db50f4aa48852e1d273e0e6d9e77c9c909abf78bdfdd1239790b77c03ff",
+        "category": "language",
+        "ground_truth": "ad-lib, freestyle, improv, make up, babble, coo, crawl, nurse, cosmetic, external, shallow, surface, butterfly, domino, placebo, side",
+        "turns": [
+            "You are given 16 words/phrases below. Find four groups of four items that share something in common. Here are a few examples of groups: bass, flounder, salmon, trout (all four are fish); ant, drill, island, opal (all four are two-word phrases that start with 'fire'); are, why, bee, queue (all four are homophones of letters); sea, sister, sin, wonder (all four are members of a septet). Categories will be more specific than e.g., '5-letter-words', 'names', or 'verbs'. There is exactly one solution. Think step-by-step, and then give your answer in **bold** as a list of the 16 items separated by commas, ordered by group (for example, **bass, founder, salmon, trout, ant, drill, island, opal, are, why, bee, queue, sea, sister, sin, wonder**). If you don't know the answer, make your best guess. The items are: surface, external, crawl, ad-lib, side, domino, freestyle, improv, placebo, make up, shallow, butterfly, coo, cosmetic, nurse, babble."
+        ],
+        "group": "writing",
+        "movie_name": "",
+        "release_date": "2024-04-15",
+        "task": "connections",
+        "livebench_release_date": "2024-06-24 00:00:00",
+        "livebench_removal_date": "",
+        "raw_id": 309,
+        "citation": "https://www.nytimes.com/games/connections, via https://word.tips/todays-nyt-connections-answers/",
+        "input": "You are given 16 words/phrases below. Find four groups of four items that share something in common. Here are a few examples of groups: bass, flounder, salmon, trout (all four are fish); ant, drill, island, opal (all four are two-word phrases that start with 'fire'); are, why, bee, queue (all four are homophones of letters); sea, sister, sin, wonder (all four are members of a septet). Categories will be more specific than e.g., '5-letter-words', 'names', or 'verbs'. There is exactly one solution. Think step-by-step, and then give your answer in **bold** as a list of the 16 items separated by commas, ordered by group (for example, **bass, founder, salmon, trout, ant, drill, island, opal, are, why, bee, queue, sea, sister, sin, wonder**). If you don't know the answer, make your best guess. The items are: surface, external, crawl, ad-lib, side, domino, freestyle, improv, placebo, make up, shallow, butterfly, coo, cosmetic, nurse, babble."
+    },
+    {
+        "question_id": "b7e9c21cce2beb30d3cb1dbaadf207bc0d3629c2ad754fe5d9ae9143f5773954",
+        "category": "language",
+        "ground_truth": "rip, tear, wrench, yank, drill, exercise, practice, routine, american, frontier, spirit, united, friar, monkey, sundry, wedding",
+        "turns": [
+            "You are given 16 words/phrases below. Find four groups of four items that share something in common. Here are a few examples of groups: bass, flounder, salmon, trout (all four are fish); ant, drill, island, opal (all four are two-word phrases that start with 'fire'); are, why, bee, queue (all four are homophones of letters); sea, sister, sin, wonder (all four are members of a septet). Categories will be more specific than e.g., '5-letter-words', 'names', or 'verbs'. There is exactly one solution. Think step-by-step, and then give your answer in **bold** as a list of the 16 items separated by commas, ordered by group (for example, **bass, founder, salmon, trout, ant, drill, island, opal, are, why, bee, queue, sea, sister, sin, wonder**). If you don't know the answer, make your best guess. The items are: drill, frontier, rip, exercise, monkey, spirit, practice, tear, united, american, friar, sundry, wedding, yank, wrench, routine."
+        ],
+        "group": "writing",
+        "movie_name": "",
+        "release_date": "2024-04-14",
+        "task": "connections",
+        "livebench_release_date": "2024-06-24 00:00:00",
+        "livebench_removal_date": "",
+        "raw_id": 308,
+        "citation": "https://www.nytimes.com/games/connections, via https://word.tips/todays-nyt-connections-answers/",
+        "input": "You are given 16 words/phrases below. Find four groups of four items that share something in common. Here are a few examples of groups: bass, flounder, salmon, trout (all four are fish); ant, drill, island, opal (all four are two-word phrases that start with 'fire'); are, why, bee, queue (all four are homophones of letters); sea, sister, sin, wonder (all four are members of a septet). Categories will be more specific than e.g., '5-letter-words', 'names', or 'verbs'. There is exactly one solution. Think step-by-step, and then give your answer in **bold** as a list of the 16 items separated by commas, ordered by group (for example, **bass, founder, salmon, trout, ant, drill, island, opal, are, why, bee, queue, sea, sister, sin, wonder**). If you don't know the answer, make your best guess. The items are: drill, frontier, rip, exercise, monkey, spirit, practice, tear, united, american, friar, sundry, wedding, yank, wrench, routine."
+    },
+    {
+        "question_id": "2137d63e0a3e1cf460baaea1ac1fb739dd1c14ade556e4f4bd89715ede88a3eb",
+        "category": "language",
+        "ground_truth": "clown, ring, tent, trapeze, lion, scarecrow, witch, wizard, hair, makeup, props, wardrobe, joker, lover, sinner, smoker",
+        "turns": [
+            "You are given 16 words/phrases below. Find four groups of four items that share something in common. Here are a few examples of groups: bass, flounder, salmon, trout (all four are fish); ant, drill, island, opal (all four are two-word phrases that start with 'fire'); are, why, bee, queue (all four are homophones of letters); sea, sister, sin, wonder (all four are members of a septet). Categories will be more specific than e.g., '5-letter-words', 'names', or 'verbs'. There is exactly one solution. Think step-by-step, and then give your answer in **bold** as a list of the 16 items separated by commas, ordered by group (for example, **bass, founder, salmon, trout, ant, drill, island, opal, are, why, bee, queue, sea, sister, sin, wonder**). If you don't know the answer, make your best guess. The items are: sinner, clown, hair, witch, lover, tent, makeup, joker, lion, ring, props, smoker, scarecrow, wizard, trapeze, wardrobe."
+        ],
+        "group": "writing",
+        "movie_name": "",
+        "release_date": "2024-04-13",
+        "task": "connections",
+        "livebench_release_date": "2024-06-24 00:00:00",
+        "livebench_removal_date": "",
+        "raw_id": 307,
+        "citation": "https://www.nytimes.com/games/connections, via https://word.tips/todays-nyt-connections-answers/",
+        "input": "You are given 16 words/phrases below. Find four groups of four items that share something in common. Here are a few examples of groups: bass, flounder, salmon, trout (all four are fish); ant, drill, island, opal (all four are two-word phrases that start with 'fire'); are, why, bee, queue (all four are homophones of letters); sea, sister, sin, wonder (all four are members of a septet). Categories will be more specific than e.g., '5-letter-words', 'names', or 'verbs'. There is exactly one solution. Think step-by-step, and then give your answer in **bold** as a list of the 16 items separated by commas, ordered by group (for example, **bass, founder, salmon, trout, ant, drill, island, opal, are, why, bee, queue, sea, sister, sin, wonder**). If you don't know the answer, make your best guess. The items are: sinner, clown, hair, witch, lover, tent, makeup, joker, lion, ring, props, smoker, scarecrow, wizard, trapeze, wardrobe."
+    }
+]

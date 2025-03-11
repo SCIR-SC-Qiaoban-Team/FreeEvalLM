@@ -1,0 +1,17 @@
+subtask,score
+language_connections,17.833333333333332
+data_analysis_tablereformat,42.0
+language_plot_unscrambling,13.268944952943803
+data_analysis_cta,48.0
+instruction_following_paraphrase,58.91666666666667
+instruction_following_simplify,64.63333333333333
+instruction_following_summarize,57.21666666666667
+language_typos,14.000000000000002
+data_analysis_tablejoin,7.000000000000001
+instruction_following_story_generation,67.08333333333333
+,
+data_analysis,32.333333333333336
+instruction_following,61.96249999999999
+language,15.034092762092378
+,
+FINAL,129.98409276209236
