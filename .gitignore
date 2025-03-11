@@ -10,7 +10,7 @@ __pycache__/
 # disposeable/*
 
 # # 具体结果
-# results/*
+results/*
 
 # # 脚本
 # scripts/*
