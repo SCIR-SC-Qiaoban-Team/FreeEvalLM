@@ -9,7 +9,7 @@ import glob
 import nltk
 import numpy as np
 from tqdm import tqdm
-
+import math
 
 # from tasks.livebench.model.api_models import get_model
 from tasks.livebench.process_results.data_analysis.tablereformat.utils import table_process_results
@@ -74,11 +74,14 @@ def play_a_match_gt(match: MatchSingle, output_file: str, debug=False):
 
     llm_answer = answer
     if llm_answer:
-        pass
+        if isinstance(llm_answer, str):
+            pass
+        else:
+            llm_answer = "None"
     else:
         llm_answer = "None"
 
-
+    print("llm_answer", llm_answer)
     score = 0
     category = None
 
@@ -324,7 +327,7 @@ class livebench(Evaluator):
 
 
 if __name__ == "__main__":
-    a = livebench("livebench", "/share/home/wxzhao/gjh_ws/Code/FreeEvalLM/results/250308_livebench/share/home/wxzhao/gjh_ws/Downloads/LLMs/s1.1-32B")
+    a = livebench("livebench", "/share/home/wxzhao/gjh_ws/Code/FreeEvalLM/results/250311_livebench/share/home/wxzhao/gjh_ws/Downloads/LLMs/OpenThinker-7B")
 
     a.load_results()
     a.evaluate()

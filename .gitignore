@@ -13,4 +13,4 @@ __pycache__/
 results/*
 
 # # 脚本
-# scripts/*
+scripts/_abort

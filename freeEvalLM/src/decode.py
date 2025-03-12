@@ -5,7 +5,7 @@ import fire
 import torch
 import pandas as pd
 
-from easy_vllm import InferenceModel, ChatParam, ChatExtraParam, GenParam, GenExtraParam
+from easy_vllm.model_vllm_gjh import InferenceModel, ChatParam, ChatExtraParam, GenParam, GenExtraParam
 from _lib._df import read_file, save_file
 from Task import TaskLoader
 
@@ -153,54 +153,75 @@ def main(
     reasoning_keys = ([reasoning_keys] if type(reasoning_keys) != tuple else list(reasoning_keys)) if reasoning_keys else ['reas_'+q for q in query_keys]
     
     
+    all_querys = []
+    big_df = pd.DataFrame()
     for item in all_dfs:
 
         df = item["subtask_data"]
         subtask_name = item["subtask_name"]
         print(f"running on {subtask_name}")
 
+        query_lines = df[query_keys].values.tolist()
+        length = len(query_lines)
+        all_querys += query_lines
 
-        if decode_type in ['query', 'query_reasoning_ctrl', 'query_force_reasoning_content']:
+        subtask_names = [subtask_name] * length
+        subtask_names_df = pd.DataFrame(subtask_names, columns=["subtask_name"])
+        df = df.join(subtask_names_df)
+    
+        big_df = pd.concat([big_df, df], ignore_index=True)
 
-            query_lines = df[query_keys].values.tolist()
-            if decode_type == 'query':
-                responses = decode_query(model, query_lines, system, threads*model_num, reasoning_max_retry, param=ChatParam(max_completion_tokens=max_new_tokens))
-            elif decode_type == 'query_reasoning_ctrl':
-                assert enable_reasoning
-                responses = decode_query_reasoning_ctrl(model, query_lines, system, threads*model_num, reasoning_max_retry, add_reasoning_prompt, enable_length_ctrl, reasoning_max_len, reasoning_min_len, reasoning_scale, cut_by_sentence, param=GenParam(max_tokens=max_new_tokens))
-            elif decode_type == 'query_force_reasoning_content':
-                assert force_reasoning_content_keys
-                assert enable_reasoning
-                force_reasoning_content_keys = [force_reasoning_content_keys] if type(force_reasoning_content_keys) != tuple else list(force_reasoning_content_keys)
-                reasoning_keys = force_reasoning_content_keys
-                
-                reasoning_content_lines = df[force_reasoning_content_keys].values.tolist()
-                responses = decode_query_force_reasoning_content(model, query_lines, reasoning_content_lines, system, threads*model_num, reasoning_scale, cut_by_sentence, param=GenParam(max_tokens=max_new_tokens))
+    print("big df", big_df)
+    df = big_df
+    query_lines = all_querys
+
+    if decode_type in ['query', 'query_reasoning_ctrl', 'query_force_reasoning_content']:
+
+        if decode_type == 'query':
+            responses = decode_query(model, query_lines, system, threads*model_num, reasoning_max_retry, param=ChatParam(max_completion_tokens=max_new_tokens))
+        elif decode_type == 'query_reasoning_ctrl':
+            assert enable_reasoning
+            responses = decode_query_reasoning_ctrl(model, query_lines, system, threads*model_num, reasoning_max_retry, add_reasoning_prompt, enable_length_ctrl, reasoning_max_len, reasoning_min_len, reasoning_scale, cut_by_sentence, param=GenParam(max_tokens=max_new_tokens))
+        elif decode_type == 'query_force_reasoning_content':
+            assert force_reasoning_content_keys
+            assert enable_reasoning
+            force_reasoning_content_keys = [force_reasoning_content_keys] if type(force_reasoning_content_keys) != tuple else list(force_reasoning_content_keys)
+            reasoning_keys = force_reasoning_content_keys
             
-            if enable_reasoning:
-                if not isinstance(responses[0], list):
-                    reasonings = [r[0] for r in responses]
-                    responses = [r[1] for r in responses]
-                else:
-                    reasonings = [[i[0] for i in r] for r in responses]
-                    responses = [[i[1] for i in r] for r in responses]
-                resp_df = pd.DataFrame(responses, columns=response_keys)
-                resn_df = pd.DataFrame(reasonings, columns=reasoning_keys)
-                
-                if overwrite:
-                    df = df.drop(response_keys + reasoning_keys, axis=1, errors='ignore')
-                df = df.join(resp_df).join(resn_df)
-            else:
-                resp_df = pd.DataFrame(responses, columns=response_keys)
-                if overwrite:
-                    df = df.drop(response_keys, axis=1, errors='ignore')
-                df = df.join(resp_df)
-            
+            reasoning_content_lines = df[force_reasoning_content_keys].values.tolist()
+            responses = decode_query_force_reasoning_content(model, query_lines, reasoning_content_lines, system, threads*model_num, reasoning_scale, cut_by_sentence, param=GenParam(max_tokens=max_new_tokens))
         
+        if enable_reasoning:
+            if not isinstance(responses[0], list):
+                reasonings = [r[0] for r in responses]
+                responses = [r[1] for r in responses]
+            else:
+                reasonings = [[i[0] for i in r] for r in responses]
+                responses = [[i[1] for i in r] for r in responses]
+            resp_df = pd.DataFrame(responses, columns=response_keys)
+            resn_df = pd.DataFrame(reasonings, columns=reasoning_keys)
+            
+            if overwrite:
+                df = df.drop(response_keys + reasoning_keys, axis=1, errors='ignore')
+            df = df.join(resp_df).join(resn_df)
+            print("df", df)
+            save_file(df, "/share/home/wxzhao/gjh_ws/Code/FreeEvalLM/caozhi/1.csv")
+        else:
+            resp_df = pd.DataFrame(responses, columns=response_keys)
+            if overwrite:
+                df = df.drop(response_keys, axis=1, errors='ignore')
+            df = df.join(resp_df)
+            
+
+    for item in all_dfs:
+
+        subtask_name = item["subtask_name"]
+        sub_df = df[df['subtask_name'] == subtask_name]
+
         result_path = os.path.join(save_path, subtask_name + ".json")
         print("saving to ", result_path)
         os.makedirs(os.path.split(result_path)[0], exist_ok=True)
-        save_file(df, result_path)
+        save_file(sub_df, result_path)
 
 
     evaluator.load_results()
