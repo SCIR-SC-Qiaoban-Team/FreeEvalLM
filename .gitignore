@@ -10,6 +10,7 @@ __pycache__/
 # disposeable/*
 
 # # 具体结果
+results/_abort
 results/*
 
 # # 脚本

@@ -9,7 +9,7 @@ port=54305
 timeout=600000
 reasoning_parser=openthinker
 
-device_ids=4,5,6,7
+device_ids=0,1,2,3
 
 
 task=livebench

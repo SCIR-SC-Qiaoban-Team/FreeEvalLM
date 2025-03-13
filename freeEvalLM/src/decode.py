@@ -1,11 +1,11 @@
-import os
+import os, glob
 from typing import Annotated, List, Optional, Literal, Union
 
 import fire
 import torch
 import pandas as pd
 
-from easy_vllm.model_vllm_gjh import InferenceModel, ChatParam, ChatExtraParam, GenParam, GenExtraParam
+from easy_vllm.model_vllm import InferenceModel, ChatParam, ChatExtraParam, GenParam, GenExtraParam
 from _lib._df import read_file, save_file
 from Task import TaskLoader
 
@@ -123,11 +123,42 @@ def main(
         all_dfs = taskLoader.load_dataset()
         evaluator = taskLoader.load_evaluator()
     else:
-        df = read_file(file_path)
-        all_dfs = [{
-            "subtask_name": "file_path",
-            "subtask_data": df
-        }]
+        try:
+            taskLoader = TaskLoader(task, save_path, sample)
+            evaluator = taskLoader.load_evaluator()
+        except:
+            print("err when loading task")
+        
+
+        if os.path.isdir(file_path):
+            subtasks_data_path = glob.glob(os.path.join(file_path, "*.json"))
+            all_dfs = []
+            # print(subtasks_data_path)
+            for data_path in subtasks_data_path:
+                print("loading subtask: ", os.path.basename(data_path).split(".")[0])
+                subtask_name = os.path.basename(data_path).split(".")[0]
+                subtask_data = read_file(data_path)
+    
+                if sample > 0:
+                    subtask_data = subtask_data.tail(sample).reset_index(drop=True)
+
+                _dict = {
+                    "subtask_name": subtask_name,
+                    "subtask_data": subtask_data
+                }
+
+                all_dfs.append(_dict)
+
+        elif os.path.isfile(file_path):
+            if sample > 0:
+                df = read_file(file_path)
+            else:
+                df = read_file(file_path).head(sample)
+
+            all_dfs = [{
+                "subtask_name": "file_path",
+                "subtask_data": df
+            }]
 
     system = None
     if system_prompt_file:
@@ -167,8 +198,12 @@ def main(
 
         subtask_names = [subtask_name] * length
         subtask_names_df = pd.DataFrame(subtask_names, columns=["subtask_name"])
-        df = df.join(subtask_names_df)
-    
+        try:
+            df = df.join(subtask_names_df)
+        except:
+            df = df.merge(subtask_names_df, on="subtask_name", how="left", suffixes=("", "_drop"))
+            df = df.loc[:, ~df.columns.str.endswith("_drop")]  # 删除重复列
+
         big_df = pd.concat([big_df, df], ignore_index=True)
 
     print("big df", big_df)
