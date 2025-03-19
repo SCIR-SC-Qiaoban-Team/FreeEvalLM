@@ -5,9 +5,9 @@ current_path = os.getcwd()
 import re
 import pandas as pd
 
-from _lib._df import read_file, save_file
-from src.Evaluator import Evaluator
-from tasks.ifeval.utils import process_results_new, agg_inst_level_acc
+from freeEvalLM._lib._df import read_file, save_file
+from freeEvalLM.src.Evaluator import Evaluator
+from freeEvalLM.tasks.ifeval.utils import process_results_new, agg_inst_level_acc
 
 def convert_booleans(lst):
 
@@ -101,7 +101,31 @@ class ifeval(Evaluator):
             
 
 if __name__ == "__main__":
-    a = ifeval("ifeval", "/share/home/wxzhao/gjh_ws/Code/FreeEvalLM/scripts/_examples")
-    a = ifeval("ifeval", "/share/home/wxzhao/gjh_ws/Code/FreeEvalLM/results/250306_ifeval/share/home/wxzhao/gjh_ws/Downloads/LLMs/OpenThinker-32B")
-    a.load_results()
-    a.evaluate()
+    # a = ifeval("ifeval", "/share/home/wxzhao/gjh_ws/Code/FreeEvalLM/scripts/_examples")
+    # a = ifeval("ifeval", "/share/home/wxzhao/gjh_ws/Code/FreeEvalLM/results/250306_ifeval/share/home/wxzhao/gjh_ws/Downloads/LLMs/OpenThinker-32B")
+    # a.load_results()
+    # a.evaluate()
+
+
+    model_list = [
+        "DeepSeek-R1-Distill-Llama-8B",
+        "DeepSeek-R1-Distill-Llama-70B",
+        "OpenThinker-7B",
+        "OpenThinker-32B",
+        "s1.1-32B",
+        "QwQ"
+    ]
+
+    sum_list = [
+        "summary",
+        "summary_plus"
+    ]
+
+    for model in model_list:
+        for sum1 in sum_list:
+            path = f"/share/home/jhguo/Code/FreeEvalLM/results/250314_ifeval_summary/{sum1}/share/home/wxzhao/gjh_ws/Downloads/LLMs/{model}/scale_1/{model}.json"
+
+            a = ifeval("livebench", path)
+
+            a.load_results()
+            a.evaluate()

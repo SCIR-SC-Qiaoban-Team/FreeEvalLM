@@ -5,8 +5,8 @@ import fire
 import torch
 import pandas as pd
 
-from easy_vllm.model_vllm import InferenceModel, ChatParam, ChatExtraParam, GenParam, GenExtraParam
-from _lib._df import read_file, save_file
+from easyvllm import InferenceModel, ChatParam, ChatExtraParam, GenParam, GenExtraParam
+from freeEvalLM._lib._df import read_file, save_file
 from Task import TaskLoader
 
 
@@ -128,8 +128,8 @@ def main(
             evaluator = taskLoader.load_evaluator()
         except:
             print("err when loading task")
+            
         
-
         if os.path.isdir(file_path):
             subtasks_data_path = glob.glob(os.path.join(file_path, "*.json"))
             all_dfs = []
@@ -177,7 +177,8 @@ def main(
         if not model_num:
             model_num = torch.cuda.device_count() // tensor_parallel_size
         device_ids = list(range(min(torch.cuda.device_count(), model_num*tensor_parallel_size)))
-    model = InferenceModel(model_path, device_ids, tensor_parallel_size, port, max_model_len, show_log, timeout, enable_reasoning, reasoning_parser, chat_template_file)
+    # model = InferenceModel(model_path, device_ids, tensor_parallel_size, port, max_model_len, show_log, timeout, enable_reasoning, reasoning_parser, chat_template_file)
+    model = InferenceModel(model_path=model_path, device_ids=device_ids, tensor_parallel_size=tensor_parallel_size, port=port, max_model_len=max_model_len, show_vllm_log=show_log, openai_timeout=timeout, enable_reasoning=enable_reasoning, reasoning_parser=reasoning_parser, chat_template=chat_template_file)
 
     query_keys = [query_keys] if type(query_keys) != tuple else list(query_keys)
     response_keys = ([response_keys] if type(response_keys) != tuple else list(response_keys)) if response_keys else ['resp_'+q for q in query_keys]
@@ -198,11 +199,18 @@ def main(
 
         subtask_names = [subtask_name] * length
         subtask_names_df = pd.DataFrame(subtask_names, columns=["subtask_name"])
-        try:
+        # try:
+        #     df = df.join(subtask_names_df)
+        # except:
+        #     df = df.merge(subtask_names_df, on="subtask_name", how="left", suffixes=("", "_drop"))
+        #     df = df.loc[:, ~df.columns.str.endswith("_drop")]  # 删除重复列
+        # save_file(df, "/share/home/wxzhao/gjh_ws/Code/FreeEvalLM/caozhi/2.csv")
+        
+        if hasattr(df, 'subtask_name'):
+            pass
+        else:
             df = df.join(subtask_names_df)
-        except:
-            df = df.merge(subtask_names_df, on="subtask_name", how="left", suffixes=("", "_drop"))
-            df = df.loc[:, ~df.columns.str.endswith("_drop")]  # 删除重复列
+
 
         big_df = pd.concat([big_df, df], ignore_index=True)
 
@@ -240,7 +248,7 @@ def main(
                 df = df.drop(response_keys + reasoning_keys, axis=1, errors='ignore')
             df = df.join(resp_df).join(resn_df)
             print("df", df)
-            save_file(df, "/share/home/wxzhao/gjh_ws/Code/FreeEvalLM/caozhi/1.csv")
+            # save_file(df, "/share/home/wxzhao/gjh_ws/Code/FreeEvalLM/caozhi/1.csv")
         else:
             resp_df = pd.DataFrame(responses, columns=response_keys)
             if overwrite:

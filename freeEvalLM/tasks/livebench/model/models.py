@@ -1,7 +1,7 @@
 from collections.abc import Callable
 from dataclasses import dataclass, field
-from tasks.livebench.conversation import Conversation
-from tasks.livebench.model.model_adapter import (
+from freeEvalLM.tasks.livebench.conversation import Conversation
+from freeEvalLM.tasks.livebench.model.model_adapter import (
     BaseModelAdapter,
     ClaudeAdapter,
     ChatGPTAdapter,
@@ -14,7 +14,7 @@ from tasks.livebench.model.model_adapter import (
     NvidiaChatAdapter,
     GemmaAdapter,
 )
-from tasks.livebench.model.completions import (
+from freeEvalLM.tasks.livebench.model.completions import (
     chat_completion_openai,
     chat_completion_anthropic,
     chat_completion_google_generativeai,

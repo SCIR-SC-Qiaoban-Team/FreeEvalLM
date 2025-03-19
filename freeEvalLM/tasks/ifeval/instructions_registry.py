@@ -14,7 +14,7 @@
 
 """Registry of all instructions."""
 
-from tasks.ifeval import instructions
+from freeEvalLM.tasks.ifeval import instructions
 
 
 _KEYWORD = "keywords:"

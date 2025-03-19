@@ -24,7 +24,7 @@ from typing import Dict, Optional, Sequence, Union
 
 import langdetect
 
-from tasks.ifeval import instructions_util
+from freeEvalLM.tasks.ifeval import instructions_util
 
 
 logger = logging.getLogger(__name__)

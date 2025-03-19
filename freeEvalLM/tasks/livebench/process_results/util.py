@@ -35,6 +35,8 @@ def last_boxed_only_string(string: str) -> Optional[str]:
 
 
 def remove_boxed(s: str) -> str:
+    if s is None:
+        return "None"
     if "\\boxed " in s:
         left = "\\boxed "
         assert s[: len(left)] == left

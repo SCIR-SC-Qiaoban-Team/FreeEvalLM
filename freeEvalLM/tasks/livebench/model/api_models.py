@@ -1,9 +1,9 @@
 import sys
 import warnings
 
-from tasks.livebench.model.completions import chat_completion_openai, chat_completion_palm
-from tasks.livebench.model.model_adapter import BaseModelAdapter, PaLM2Adapter, get_model_adapter
-from tasks.livebench.model.models import (
+from freeEvalLM.tasks.livebench.model.completions import chat_completion_openai, chat_completion_palm
+from freeEvalLM.tasks.livebench.model.model_adapter import BaseModelAdapter, PaLM2Adapter, get_model_adapter
+from freeEvalLM.tasks.livebench.model.models import (
     AnthropicModel, AWSModel, CohereModel, DeepseekModel, GeminiModel,
     GemmaModel, LlamaModel, MistralModel, Model, NvidiaModel, OpenAIModel,
     QwenModel, QwenModelAlibabaAPI, XAIModel

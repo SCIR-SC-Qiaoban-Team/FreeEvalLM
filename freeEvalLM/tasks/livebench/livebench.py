@@ -11,24 +11,25 @@ import numpy as np
 from tqdm import tqdm
 import math
 
-# from tasks.livebench.model.api_models import get_model
-from tasks.livebench.process_results.data_analysis.tablereformat.utils import table_process_results
-from tasks.livebench.process_results.data_analysis.cta.utils import cta_process_results
-from tasks.livebench.process_results.data_analysis.tablejoin.utils import joinmap_process_results
-# from tasks.livebench.process_results.reasoning.web_of_lies_v2.utils import web_of_lies_process_results
-# from tasks.livebench.process_results.reasoning.house_traversal.utils import house_traversal_process_results
-# from tasks.livebench.process_results.reasoning.zebra_puzzle.utils import get_zebra_puzzle_evaluator
-# from tasks.livebench.process_results.reasoning.spatial.utils import spatial_process_results
-# from tasks.livebench.process_results.math.math_competitions.utils import mathcontest_process_results,aime_process_results 
-# from tasks.livebench.process_results.math.olympiad.utils import proof_rearrangement_process_results
-# from tasks.livebench.process_results.math.AMPS_Hard.utils import amps_hard_process_results 
-from tasks.livebench.process_results.writing.plot_unscrambling.utils import plot_unscrambling_process_results
-from tasks.livebench.process_results.writing.typos.utils import typos_process_results
-from tasks.livebench.process_results.writing.connections.utils import get_connections_puzzle_evaluator
-# from tasks.livebench.process_results.coding.utils import LCB_generation_process_results
-from tasks.livebench.process_results.instruction_following.utils import instruction_following_process_results
+# from freeEvalLM.tasks.livebench.model.api_models import get_model
+from freeEvalLM.tasks.livebench.process_results.data_analysis.tablereformat.utils import table_process_results
+from freeEvalLM.tasks.livebench.process_results.data_analysis.cta.utils import cta_process_results
+from freeEvalLM.tasks.livebench.process_results.data_analysis.tablejoin.utils import joinmap_process_results
+# from freeEvalLM.tasks.livebench.process_results.reasoning.web_of_lies_v2.utils import web_of_lies_process_results
+# from freeEvalLM.tasks.livebench.process_results.reasoning.house_traversal.utils import house_traversal_process_results
+# from freeEvalLM.tasks.livebench.process_results.reasoning.zebra_puzzle.utils import get_zebra_puzzle_evaluator
+# from freeEvalLM.tasks.livebench.process_results.reasoning.spatial.utils import spatial_process_results
+# from freeEvalLM.tasks.livebench.process_results.math.math_competitions.utils import mathcontest_process_results,aime_process_results 
+# from freeEvalLM.tasks.livebench.process_results.math.olympiad.utils import proof_rearrangement_process_results
+# from freeEvalLM.tasks.livebench.process_results.math.AMPS_Hard.utils import amps_hard_process_results 
+from freeEvalLM.tasks.livebench.process_results.writing.plot_unscrambling.utils import plot_unscrambling_process_results
+from freeEvalLM.tasks.livebench.process_results.writing.typos.utils import typos_process_results
+from freeEvalLM.tasks.livebench.process_results.writing.connections.utils import get_connections_puzzle_evaluator
+# from freeEvalLM.tasks.livebench.process_results.coding.utils import LCB_generation_process_results
+from freeEvalLM.tasks.livebench.process_results.instruction_following.utils import instruction_following_process_results
 
-from tasks.livebench.common import (
+
+from freeEvalLM.tasks.livebench.common import (
     LIVE_BENCH_RELEASES,
     load_questions,
     load_questions_jsonl,
@@ -81,7 +82,7 @@ def play_a_match_gt(match: MatchSingle, output_file: str, debug=False):
     else:
         llm_answer = "None"
 
-    print("llm_answer", llm_answer)
+    print("llm_answer ###############", llm_answer)
     score = 0
     category = None
 
@@ -181,8 +182,8 @@ current_path = os.getcwd()
 import re
 import pandas as pd
 
-from _lib._df import read_file, save_file
-from src.Evaluator import Evaluator
+from freeEvalLM._lib._df import read_file, save_file
+from freeEvalLM.src.Evaluator import Evaluator
 
 
 def convert_booleans_list(lst):
@@ -289,11 +290,15 @@ class livebench(Evaluator):
 
 
             # print(scores)
+            final_ = 0
+            for score in scores:
+                final_ += score
             df = pd.DataFrame({
                 'filtered_answer': answers,
                 'score': scores
             })
-            all_finals.append(sum(scores)/len(scores)*100)
+            # all_finals.append(sum(scores)/len(scores)*100)
+            all_finals.append(final_/len(scores)*100)
             
             data = data.join(df)
             # print(os.path.dirname(data_path))
@@ -314,7 +319,7 @@ class livebench(Evaluator):
         
 
         all_names += ["","data_analysis", "instruction_following", "language", "", "FINAL"]
-        all_finals += ["",data_analysis/3, instruction_following/4, language/3,"", sum([data_analysis/3,instruction_following/4,language/3])/3]
+        all_finals += ["",data_analysis/3, instruction_following/4, language/3,"", (data_analysis/3 + instruction_following/4 + language/3)/3]
 
 
 
@@ -327,13 +332,8 @@ class livebench(Evaluator):
 
 
 if __name__ == "__main__":
-    a = livebench("livebench", "/share/home/wxzhao/gjh_ws/Code/FreeEvalLM/results/250311_livebench/share/home/wxzhao/gjh_ws/Downloads/LLMs/OpenThinker-7B")
 
-    a.load_results()
-    a.evaluate()
-    # print(a.none)
-    # pass
-
+    pass
 
 
 

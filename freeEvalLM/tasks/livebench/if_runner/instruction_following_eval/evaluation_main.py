@@ -84,20 +84,22 @@ def read_prompt_list(questions):
 def write_outputs(output_jsonl_filename, outputs):
   """Writes outputs to jsonl."""
   assert outputs
-  with open(output_jsonl_filename, "w") as f:
-    for o in outputs:
-      f.write(
-          json.dumps(
-              {
-                  attr_name: o.__getattribute__(attr_name)
-                  for attr_name in [
-                      name for name in dir(o) if not name.startswith("_")
-                  ]
-              }
-          )
-      )
-      f.write("\n")
-
+  try:
+    with open(output_jsonl_filename, "w") as f:
+      for o in outputs:
+        f.write(
+            json.dumps(
+                {
+                    attr_name: o.__getattribute__(attr_name)
+                    for attr_name in [
+                        name for name in dir(o) if not name.startswith("_")
+                    ]
+                }
+            )
+        )
+        f.write("\n")
+  except:
+    pass
 
 def test_instruction_following_strict(
     inp,

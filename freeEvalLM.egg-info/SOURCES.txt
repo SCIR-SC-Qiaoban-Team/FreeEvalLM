@@ -5,5 +5,15 @@ freeEvalLM.egg-info/SOURCES.txt
 freeEvalLM.egg-info/dependency_links.txt
 freeEvalLM.egg-info/top_level.txt
 freeEvalLM/_lib/__init__.py
+freeEvalLM/_lib/_df.py
 freeEvalLM/_lib/_json.py
 freeEvalLM/_lib/_pkl.py
+freeEvalLM/tasks/__init__.py
+freeEvalLM/tasks/ifeval/__init__.py
+freeEvalLM/tasks/ifeval/ifeval.py
+freeEvalLM/tasks/ifeval/instructions.py
+freeEvalLM/tasks/ifeval/instructions_registry.py
+freeEvalLM/tasks/ifeval/instructions_util.py
+freeEvalLM/tasks/ifeval/utils.py
+freeEvalLM/tasks/mmlu_pro/__init__.py
+freeEvalLM/tasks/mmlu_pro/mmlu_pro.py

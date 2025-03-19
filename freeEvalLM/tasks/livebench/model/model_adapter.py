@@ -36,7 +36,7 @@ from transformers import (
     AutoTokenizer, LlamaForCausalLM, LlamaTokenizer, T5Tokenizer
 )
 
-from tasks.livebench.conversation import Conversation, get_conv_template
+from freeEvalLM.tasks.livebench.conversation import Conversation, get_conv_template
 
 
 #from fastchat.model.model_cllm import generate_stream_cllm

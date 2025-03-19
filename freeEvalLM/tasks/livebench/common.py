@@ -12,7 +12,7 @@ import os
 import re
 from typing import Optional
 
-from tasks.livebench.model.api_models import get_model
+from freeEvalLM.tasks.livebench.model.api_models import get_model
 
 
 # Extract scores from judgments
@@ -381,7 +381,7 @@ def get_model_list(answer_dir):
     
 
 def filter_questions(questions, answer_file, resume=False, retry_failures=False):
-    from tasks.livebench.model.completions import API_ERROR_OUTPUT
+    from freeEvalLM.tasks.livebench.model.completions import API_ERROR_OUTPUT
     reorg_answer_file(answer_file)
     new_questions_ids = set([q["question_id"] for q in questions])
     if not os.path.exists(answer_file):

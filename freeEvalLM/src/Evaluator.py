@@ -5,7 +5,7 @@ current_path = os.getcwd()
 import re
 import pandas as pd
 
-from _lib._df import read_file, save_file
+from freeEvalLM._lib._df import read_file, save_file
 
 
 class Evaluator:
@@ -15,7 +15,7 @@ class Evaluator:
         ):
         self.task = task
         self.result_dir = result_dir
-
+    
 
     def load_results(self):
         print("loading results")
@@ -38,35 +38,6 @@ class Evaluator:
             self.all_dfs.append(_dict)
 
 
-    def evaluate(self):
-        all_names = []
-        all_finals = []
-        for subtask, data_path in zip(self.all_dfs,  self.subtasks_data_path):
-            name = subtask["subtask_name"]
-            all_names.append(name)
-            data = subtask["subtask_data"]
-            answers = self.filter_answer_subtask(data)
-            scores = self.compare(answers, data["target"])
-            final = self.count(scores)
-            all_finals.append(final)
-            df = pd.DataFrame({
-                'filtered_answer': answers,
-                'score': scores
-            })
-            
-            data = data.join(df)
-            print(os.path.dirname(data_path))
-            save_file(data, os.path.join(os.path.dirname(data_path), name+".json"))
-            
-        all_names += ["FINAL"]
-        all_finals += [sum(all_finals)/len(all_finals)]
-        
-        df = pd.DataFrame({
-            'subtask': all_names,
-            'score': all_finals
-        })    
-        save_file(df, os.path.join(os.path.dirname(data_path), "Results.csv"))
-            
 
 
 if __name__ == "__main__":

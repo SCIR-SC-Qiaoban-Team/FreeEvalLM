@@ -1,5 +1,5 @@
 import re
-from tasks.livebench.process_results.util import last_boxed_only_string, remove_boxed
+from freeEvalLM.tasks.livebench.process_results.util import last_boxed_only_string, remove_boxed
 
 
 def clean_text(text):

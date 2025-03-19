@@ -1,7 +1,7 @@
 import dataclasses
 from typing import Dict, Optional, Union
 
-from tasks.ifeval import instructions_registry
+from freeEvalLM.tasks.ifeval import instructions_registry
 
 
 @dataclasses.dataclass
