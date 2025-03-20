@@ -55,6 +55,8 @@ git clone https://github.com/XingYuSSS/easyvllm
 cd easyvllm
 pip install -e .
 ```
+`easyvllm` depends on `VLLM` and requires additional installation steps to support LRMs. Please refer to the installation guide at `https://github.com/XingYuSSS/easyvllm`.
+
 
 ```shell
 git clone https://github.com/MuyuenLP/FreeEvalLM

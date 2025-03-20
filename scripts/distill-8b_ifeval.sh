@@ -8,8 +8,6 @@ source ~/venv/cu124/bin/activate
 port=54182
 timeout=600000
 reasoning_parser=deepseek_r1
-
-
 # support list:
 #     deepseek_r1
 #     simplescaling
@@ -36,7 +34,7 @@ threads=128
 model_num=1
 reasoning_max_retry=3
 
-SRC=/share/home/jhguo/Code/FreeEvalLM
+SRC=YOUR_PATH_TO_FreeEvalLM
 
 for model_path in ${model_path_list[@]}
 do

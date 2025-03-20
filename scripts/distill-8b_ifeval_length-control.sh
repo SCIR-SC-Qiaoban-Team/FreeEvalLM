@@ -32,7 +32,7 @@ cut_by_sentence=False
 reasoning_scale_list[0]=0.1
 
 
-SRC=/share/home/jhguo/Code/FreeEvalLM
+SRC=YOUR_PATH_TO_FreeEvalLM
 
 
 for reasoning_scale in ${reasoning_scale_list[@]}
