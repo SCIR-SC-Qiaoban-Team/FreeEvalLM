@@ -8,7 +8,11 @@ freeEvalLM/_lib/__init__.py
 freeEvalLM/_lib/_df.py
 freeEvalLM/_lib/_json.py
 freeEvalLM/_lib/_pkl.py
+freeEvalLM/_lib/_utils.py
 freeEvalLM/tasks/__init__.py
+freeEvalLM/tasks/asr/XSTest.py
+freeEvalLM/tasks/asr/__init__.py
+freeEvalLM/tasks/asr/wild_jailbreak.py
 freeEvalLM/tasks/ifeval/__init__.py
 freeEvalLM/tasks/ifeval/ifeval.py
 freeEvalLM/tasks/ifeval/instructions.py
