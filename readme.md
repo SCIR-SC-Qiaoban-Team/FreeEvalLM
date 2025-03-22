@@ -1,14 +1,23 @@
-<h1 align='center' style="text-align:center; font-weight:bold; font-size:2.0em;letter-spacing:2.0px;"> Does Deliberative Reasoning in Large Reasoning Models Impact General Capabilities? </h1>
+<h1 align='center' style="text-align:center; font-weight:bold; font-size:2.0em;letter-spacing:2.0px;"> Trade-offs in Large Reasoning Models: An Empirical Analysis of Deliberative and Adaptive Reasoning over Foundational Capabilities </h1>
 
 <!-- Authors -->
 
 <p align="center">
     <!-- Use &nbsp; for spacing, <sup> for affiliations, and style="text-decoration: none;" for link decoration -->
-    <a href="https://circle-hit.github.io/" target="_blank" style="text-decoration: none;">111<sup>1</sup></a>&nbsp;,&nbsp;
-    <a href="https://circle-hit.github.io/" target="_blank" style="text-decoration: none;">2222<sup>1</sup></a>&nbsp;,&nbsp;
-    <a href="https://circle-hit.github.io/" target="_blank" style="text-decoration: none;">33333<sup>1</sup></a>&nbsp;,&nbsp;
+    <a href="https://circle-hit.github.io/" target="_blank" style="text-decoration: none;">Weixiang Zhao<sup>1</sup><sup>*</sup></a>&nbsp;,&nbsp;
+    <a href="https://github.com/XingYuSSS" target="_blank" style="text-decoration: none;">Xingyu Sui<sup>1</sup><sup>*</sup></a>&nbsp;,&nbsp;
+    <a href="https://github.com/MuyuenLP" target="_blank" style="text-decoration: none;">Jiahe Guo<sup>1</sup><sup>*</sup></a>&nbsp;,&nbsp;
+    <a href="https://github.com/yulinlp" target="_blank" style="text-decoration: none;">Yulin Hu<sup>1</sup><sup>*</sup></a>&nbsp;,&nbsp;
+    <a href="https://github.com" target="_blank" style="text-decoration: none;">Yang Deng<sup>2</sup></a>&nbsp;,&nbsp;
+    <a href="https://github.com" target="_blank" style="text-decoration: none;">Yanyan Zhao<sup>1</sup></a>&nbsp;,&nbsp;
+    <a href="https://github.com" target="_blank" style="text-decoration: none;">Bing Qin<sup>1</sup></a>&nbsp;,&nbsp;
+    <a href="https://github.com" target="_blank" style="text-decoration: none;">Wanxiang Che<sup>1</sup></a>&nbsp;,&nbsp;
+    <a href="https://github.com" target="_blank" style="text-decoration: none;">Tat-Seng Chua<sup>3</sup></a>&nbsp;,&nbsp;
+    <a href="https://github.com" target="_blank" style="text-decoration: none;">Ting Liu<sup>1</sup></a>&nbsp;,&nbsp;
     <br/><br/>
     <sup>1</sup>Harbin Institute of Technology&nbsp;&nbsp;&nbsp;
+    <sup>2</sup>Singapore Management University&nbsp;&nbsp;&nbsp;
+    <sup>3</sup>National University of Singapore&nbsp;&nbsp;&nbsp;
 </p>
 
 <!-- Warning -->
@@ -27,16 +36,12 @@
     </b>
     &nbsp;&nbsp;
     <b>
-        <a href="https://circle-hit.github.io/" target="_blank" style="text-decoration: none;">[Project Page]</a>
+        <a href="https://github.com/SCIR-SC-Qiaoban-Team/FreeEvalLM" target="_blank" style="text-decoration: none;">[Project Page]</a>
     </b>
     &nbsp;&nbsp;
-    <b>
-        <a href="https://circle-hit.github.io/" target="_blank" style="text-decoration: none;">[Dataset]</a>
-    </b>
+
 </p>
 
-
-![](asset/safechain.jpg) 
 
 ## News
 
@@ -51,7 +56,7 @@
 You need to insatll `easyvllm` for the deocoding of LRMs.
 
 ```shell
-git clone https://github.com/XingYuSSS/easyvllm
+git clone https://github.com/SCIR-SC-Qiaoban-Team/easyvllm
 cd easyvllm
 pip install -e .
 ```
@@ -125,6 +130,29 @@ cd FreeEvalLM
 bash scripts/distill-8b_ifeval.sh
 ```
 
-If you want to control the thinking ratio and try multi-GPUs inference, please refer to `scripts/distill-8b_ifeval_length-control.sh`
+If you want to control the thinking length and try multi-GPUs inference, please refer to `scripts/distill-8b_ifeval_length-control.sh`
 
 
+## Acknowledgments
+
+We would like to express my sincere gratitude to the following open-source projects and their development teams. 
+
+- [lm-evaluation-harness](https://github.com/EleutherAI/lm-evaluation-harness)
+- [MMLU-Pro](https://github.com/TIGER-AI-Lab/MMLU-Pro)
+- [LiveBench](https://github.com/LiveBench/LiveBench)
+- [IFEval](https://github.com/Rohan2002/IFEval)
+- [XSTest](https://github.com/paul-rottger/xstest)
+- [wildteaming](https://github.com/allenai/wildteaming)
+- [strong_reject](https://github.com/dsbowen/strong_reject)
+- [MT-Bench](https://github.com/lm-sys/FastChat/tree/main/fastchat/llm_judge)
+
+
+
+## Citation
+
+If you find our work useful, please consider citing our paper:
+
+```
+bib
+
+```
