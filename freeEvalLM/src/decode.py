@@ -199,12 +199,7 @@ def main(
 
         subtask_names = [subtask_name] * length
         subtask_names_df = pd.DataFrame(subtask_names, columns=["subtask_name"])
-        # try:
-        #     df = df.join(subtask_names_df)
-        # except:
-        #     df = df.merge(subtask_names_df, on="subtask_name", how="left", suffixes=("", "_drop"))
-        #     df = df.loc[:, ~df.columns.str.endswith("_drop")]  # 删除重复列
-        # save_file(df, "/share/home/wxzhao/gjh_ws/Code/FreeEvalLM/caozhi/2.csv")
+
         
         if hasattr(df, 'subtask_name'):
             pass
@@ -248,7 +243,7 @@ def main(
                 df = df.drop(response_keys + reasoning_keys, axis=1, errors='ignore')
             df = df.join(resp_df).join(resn_df)
             print("df", df)
-            # save_file(df, "/share/home/wxzhao/gjh_ws/Code/FreeEvalLM/caozhi/1.csv")
+
         else:
             resp_df = pd.DataFrame(responses, columns=response_keys)
             if overwrite:

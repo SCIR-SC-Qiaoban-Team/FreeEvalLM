@@ -107,10 +107,8 @@ def get_categories_tasks(bench_name: str):
 
 def get_hf_dataset(dataset_name: str, split="test"):
     """Load a dataset from HuggingFace using the given split."""
-    print("##################")
-    print(dataset_name)
-    # return load_dataset(f"{LIVE_BENCH_HF_ORGANIZATION}/{dataset_name}", split=split)
-    return load_from_disk(f"/share/home/wxzhao/gjh_ws/Code/LM-eval/resources/livebench/{dataset_name}")[split]
+    return load_dataset(f"{LIVE_BENCH_HF_ORGANIZATION}/{dataset_name}", split=split)
+
 
 
 def get_tasks_from_hf_category(category: Dataset):
