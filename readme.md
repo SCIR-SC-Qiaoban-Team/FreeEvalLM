@@ -8,7 +8,7 @@
     <a href="https://github.com/XingYuSSS" target="_blank" style="text-decoration: none;">Xingyu Sui<sup>1</sup><sup>*</sup></a>&nbsp;,&nbsp;
     <a href="https://github.com/MuyuenLP" target="_blank" style="text-decoration: none;">Jiahe Guo<sup>1</sup><sup>*</sup></a>&nbsp;,&nbsp;
     <a href="https://github.com/yulinlp" target="_blank" style="text-decoration: none;">Yulin Hu<sup>1</sup><sup>*</sup></a>&nbsp;,&nbsp;
-    <a href="https://dengyang17.github.io/" target="_blank" style="text-decoration: none;">Yang Deng<sup>2</sup></a>&nbsp;,&nbsp;
+    <a href="https://dengyang17.github.io/" target="_blank" style="text-decoration: none;">Yang Deng<sup>2</sup></a>&nbsp;,&nbsp;<br/>
     <a href="https://homepage.hit.edu.cn/yanyan" target="_blank" style="text-decoration: none;">Yanyan Zhao<sup>1</sup></a>&nbsp;,&nbsp;
     <a href="https://homepage.hit.edu.cn/qinbing" target="_blank" style="text-decoration: none;">Bing Qin<sup>1</sup></a>&nbsp;,&nbsp;
     <a href="https://chewanxiang.com/" target="_blank" style="text-decoration: none;">Wanxiang Che<sup>1</sup></a>&nbsp;,&nbsp;
