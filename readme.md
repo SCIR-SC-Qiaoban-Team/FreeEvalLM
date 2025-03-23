@@ -8,12 +8,12 @@
     <a href="https://github.com/XingYuSSS" target="_blank" style="text-decoration: none;">Xingyu Sui<sup>1</sup><sup>*</sup></a>&nbsp;,&nbsp;
     <a href="https://github.com/MuyuenLP" target="_blank" style="text-decoration: none;">Jiahe Guo<sup>1</sup><sup>*</sup></a>&nbsp;,&nbsp;
     <a href="https://github.com/yulinlp" target="_blank" style="text-decoration: none;">Yulin Hu<sup>1</sup><sup>*</sup></a>&nbsp;,&nbsp;
-    <a href="https://github.com" target="_blank" style="text-decoration: none;">Yang Deng<sup>2</sup></a>&nbsp;,&nbsp;
-    <a href="https://github.com" target="_blank" style="text-decoration: none;">Yanyan Zhao<sup>1</sup></a>&nbsp;,&nbsp;
-    <a href="https://github.com" target="_blank" style="text-decoration: none;">Bing Qin<sup>1</sup></a>&nbsp;,&nbsp;
-    <a href="https://github.com" target="_blank" style="text-decoration: none;">Wanxiang Che<sup>1</sup></a>&nbsp;,&nbsp;
-    <a href="https://github.com" target="_blank" style="text-decoration: none;">Tat-Seng Chua<sup>3</sup></a>&nbsp;,&nbsp;
-    <a href="https://github.com" target="_blank" style="text-decoration: none;">Ting Liu<sup>1</sup></a>&nbsp;,&nbsp;
+    <a href="https://dengyang17.github.io/" target="_blank" style="text-decoration: none;">Yang Deng<sup>2</sup></a>&nbsp;,&nbsp;
+    <a href="https://homepage.hit.edu.cn/yanyan" target="_blank" style="text-decoration: none;">Yanyan Zhao<sup>1</sup></a>&nbsp;,&nbsp;
+    <a href="https://homepage.hit.edu.cn/qinbing" target="_blank" style="text-decoration: none;">Bing Qin<sup>1</sup></a>&nbsp;,&nbsp;
+    <a href="https://chewanxiang.com/" target="_blank" style="text-decoration: none;">Wanxiang Che<sup>1</sup></a>&nbsp;,&nbsp;
+    <a href="https://www.chuatatseng.com/" target="_blank" style="text-decoration: none;">Tat-Seng Chua<sup>3</sup></a>&nbsp;,&nbsp;
+    <a href="https://homepage.hit.edu.cn/liuting" target="_blank" style="text-decoration: none;">Ting Liu<sup>1</sup></a>&nbsp;,&nbsp;
     <br/><br/>
     <sup>1</sup>Harbin Institute of Technology&nbsp;&nbsp;&nbsp;
     <sup>2</sup>Singapore Management University&nbsp;&nbsp;&nbsp;
@@ -60,11 +60,11 @@ git clone https://github.com/SCIR-SC-Qiaoban-Team/easyvllm
 cd easyvllm
 pip install -e .
 ```
-`easyvllm` depends on `VLLM` and requires additional installation steps to support LRMs. Please refer to the installation guide at `https://github.com/XingYuSSS/easyvllm`.
+`easyvllm` depends on `VLLM` and requires additional installation steps to support LRMs. Please refer to the installation guide at `https://github.com/SCIR-SC-Qiaoban-Teameasyvllm`.
 
 
 ```shell
-git clone https://github.com/MuyuenLP/FreeEvalLM
+git clone https://github.com/SCIR-SC-Qiaoban-Team/FreeEvalLM
 cd FreeEvalLM
 pip install -e .
 ```
