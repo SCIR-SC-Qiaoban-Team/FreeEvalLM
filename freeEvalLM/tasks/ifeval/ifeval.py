@@ -101,11 +101,6 @@ class ifeval(Evaluator):
             
 
 if __name__ == "__main__":
-    # a = ifeval("ifeval", "/share/home/wxzhao/gjh_ws/Code/FreeEvalLM/scripts/_examples")
-    # a = ifeval("ifeval", "/share/home/wxzhao/gjh_ws/Code/FreeEvalLM/results/250306_ifeval/share/home/wxzhao/gjh_ws/Downloads/LLMs/OpenThinker-32B")
-    # a.load_results()
-    # a.evaluate()
-
 
     model_list = [
         "DeepSeek-R1-Distill-Llama-8B",
@@ -123,7 +118,7 @@ if __name__ == "__main__":
 
     for model in model_list:
         for sum1 in sum_list:
-            path = f"/share/home/jhguo/Code/FreeEvalLM/results/250314_ifeval_summary/{sum1}/share/home/wxzhao/gjh_ws/Downloads/LLMs/{model}/scale_1/{model}.json"
+            path = f""
 
             a = ifeval("livebench", path)
 

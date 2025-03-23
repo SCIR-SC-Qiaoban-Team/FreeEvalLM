@@ -97,7 +97,7 @@ class strong_reject(Evaluator):
             
 
 if __name__ == "__main__":
-    folder_path = "results/250319_test/share/home/wxzhao/gjh_ws/Downloads/LLMs/DeepSeek-R1-Distill-Llama-8B/strong_reject"
+    folder_path = ""
     a = strong_reject("strong_reject", folder_path)
     a.load_results()
     a.evaluate()

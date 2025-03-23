@@ -25,7 +25,7 @@ response_keys=response
 reasoning_keys=reasoning
 
 
-model_path_list[0]=/share/home/wxzhao/gjh_ws/Downloads/LLMs/DeepSeek-R1-Distill-Llama-8B
+model_path_list[0]=YOUR_PATH/DeepSeek-R1-Distill-Llama-8B
 tensor_parallel_size=1
 enable_reasoning=True
 max_model_len=15504

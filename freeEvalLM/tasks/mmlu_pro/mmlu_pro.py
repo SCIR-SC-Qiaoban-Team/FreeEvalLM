@@ -104,42 +104,4 @@ class mmlu_pro(Evaluator):
 if __name__ == "__main__":
 
 
-    model_list = [
-        "DeepSeek-R1-Distill-Llama-8B",
-        "DeepSeek-R1-Distill-Llama-70B",
-        "OpenThinker-7B",
-        "OpenThinker-32B",
-        "s1.1-32B",
-        "QwQ"
-    ]
-
-    # ori_list = [
-    #     "/share/home/jhguo/Code/FreeEvalLM/results/_abort/250303_mmlu_pro/share/home/wxzhao/gjh_ws/Downloads/LLMs/Llama-3.1-8B-Instruct-hf",
-    #     "/share/home/jhguo/Code/FreeEvalLM/results/_abort/250303_mmlu_pro/share/home/wxzhao/gjh_ws/Downloads/LLMs/Llama-3.3-70B-Instruct",
-    #     "/share/home/jhguo/Code/FreeEvalLM/results/_abort/250303_mmlu_pro/share/home/wxzhao/gjh_ws/Downloads/LLMs/Qwen2.5-7B-Instruct",
-    #     "/share/home/jhguo/Code/FreeEvalLM/results/_abort/250303_mmlu_pro/share/home/wxzhao/gjh_ws/Downloads/LLMs/Qwen2.5-32B-Instruct"
-    # ]
-
-    scales = [
-        "scale_0.0",
-        "scale_0.1",
-        "scale_0.2",
-        "scale_0.5",
-        "scale_0.6",
-        "scale_0.8",     
-        "scale_0.9",        
-    ]
-
-    # model_list = model_list[0:1]
-
-    for model in model_list:
-        for scale in scales:
-            print(model)
-            # a = mmlu_pro("mmlu_pro", f"/share/home/jhguo/Code/FreeEvalLM/results/250313_mmlu_pro/share/home/wxzhao/gjh_ws/Downloads/LLMs/{model}")
-            # a = mmlu_pro("mmlu_pro", f"{model}")
-            folder_path = f"/share/home/jhguo/Code/FreeEvalLM/results/250316_mmlu_pro_less/share/home/wxzhao/gjh_ws/Downloads/LLMs/{model}/{scale}/{model}.json"
-            if os.path.exists(folder_path):
-                a = mmlu_pro("mmlu_pro", folder_path)
-                a.load_results()
-                a.evaluate()
-
+   pass

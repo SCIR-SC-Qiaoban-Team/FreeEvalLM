@@ -41,6 +41,6 @@ class Evaluator:
 
 
 if __name__ == "__main__":
-    a = Evaluator("mmlu_pro", "/share/home/wxzhao/gjh_ws/Code/FreeEvalLM/results/250303_mmlu_pro/share/home/wxzhao/gjh_ws/Downloads/LLMs/DeepSeek-R1-Distill-Llama-8B")
+    a = Evaluator("mmlu_pro", "")
     a.load_results()
     a.evaluate()

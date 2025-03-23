@@ -112,7 +112,7 @@ CLASS:'''
             
 
 if __name__ == "__main__":
-    folder_path = "results/250319_test/share/home/wxzhao/gjh_ws/Downloads/LLMs/DeepSeek-R1-Distill-Llama-8B/XSTest_S"
+    folder_path = ""
 
     a = asr("XSTest_S", folder_path)
     a.load_results()
