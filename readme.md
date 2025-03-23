@@ -60,7 +60,7 @@ git clone https://github.com/SCIR-SC-Qiaoban-Team/easyvllm
 cd easyvllm
 pip install -e .
 ```
-`easyvllm` depends on `VLLM` and requires additional installation steps to support LRMs. Please refer to the installation guide at `https://github.com/SCIR-SC-Qiaoban-Teameasyvllm`.
+`easyvllm` depends on `VLLM` and requires additional installation steps to support LRMs. Please refer to the installation guide at `https://github.com/SCIR-SC-Qiaoban-Team/easyvllm`.
 
 
 ```shell
