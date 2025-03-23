@@ -135,7 +135,7 @@ If you want to control the thinking length and try multi-GPUs inference, please 
 
 ## Acknowledgments
 
-We would like to express my sincere gratitude to the following open-source projects and their development teams. 
+We would like to express sincere gratitude to the following open-source projects and their development teams. 
 
 - [lm-evaluation-harness](https://github.com/EleutherAI/lm-evaluation-harness)
 - [MMLU-Pro](https://github.com/TIGER-AI-Lab/MMLU-Pro)
