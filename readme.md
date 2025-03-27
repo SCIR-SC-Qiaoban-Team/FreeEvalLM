@@ -153,6 +153,10 @@ We would like to express sincere gratitude to the following open-source projects
 If you find our work useful, please consider citing our paper:
 
 ```
-bib
-
+@article{zhao2025trade,
+  title={Trade-offs in Large Reasoning Models: An Empirical Analysis of Deliberative and Adaptive Reasoning over Foundational Capabilities},
+  author={Zhao, Weixiang and Sui, Xingyu and Guo, Jiahe and Hu, Yulin and Deng, Yang and Zhao, Yanyan and Qin, Bing and Che, Wanxiang and Chua, Tat-Seng and Liu, Ting},
+  journal={arXiv preprint arXiv:2503.17979},
+  year={2025}
+}
 ```
