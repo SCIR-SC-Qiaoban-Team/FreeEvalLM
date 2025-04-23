@@ -32,7 +32,7 @@
 
 <p align="center" style="font-size: 1.2em;">
     <b>
-        <a href="https://arxiv.org" target="_blank" style="text-decoration: none;">[Paper]</a>
+        <a href="https://arxiv.org/abs/2503.17979" target="_blank" style="text-decoration: none;">[Paper]</a>
     </b>
     &nbsp;&nbsp;
     <b>
